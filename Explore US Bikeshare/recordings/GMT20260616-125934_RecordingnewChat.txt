@@ -1,0 +1,12 @@
+00:08:49	Martin Pasztetnik:	Hi, FYI, it can be quite difficult to join Zoom meetings using non-Chevron accounts. It would be better to use Teams instead.
+00:09:08	fernandez valentina:	Reacted to "Hi, FYI, it can be quite difficult to join Zoom meetings using non-Chevron accounts. It would be better to use Teams instead." with 👍
+00:24:29	Jay Teguh:	a = 1 + 2print(a == 3)
+00:34:57	Jay Teguh:	city = "Chicago"if city:    print("City selected")elif city == "Chicago":    print("Chicago selected")else:    print("No city")
+00:47:24	Jay Teguh:	funcs = []for x in [1, 2, 3]:    funcs.append(lambda: x)print([f() for f in funcs])
+01:30:33	andes:	Need to drop. Thanks for all @Jay Teguh!
+01:31:52	Bathri Vasudevan:	@Jay Teguh Can we get the access to this presentation for reference?
+01:44:45	yfbl:	brb
+01:44:51	Jay Teguh:	rel_vol = all_stocks.std() / all_stocks.mean()print(rel_vol.idxmax())
+01:46:45	Jay Teguh:	https://community.udacity.com/c/chevron-data-engineering/
+01:58:34	Jania Serra:	Thanks for the session, Jay! It was very productive, everything was very well explained.
+01:58:37	Jay Teguh:	https://airtable.com/shr7WGplyaZIWq8pE

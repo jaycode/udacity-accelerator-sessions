@@ -1,0 +1,7 @@
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.mp4
+*.m4a

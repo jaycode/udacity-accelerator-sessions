@@ -1,0 +1,3008 @@
+WEBVTT
+
+1
+01:09:46.903 --> 01:09:49.903
+So, if you remember, metric is, like, uh…
+
+
+2
+01:09:49.903 --> 01:09:54.903
+Uh, if you… if you still remember the, um, the college,
+
+
+3
+01:09:54.903 --> 01:10:00.903
+mathematics. It's like this square box with, uh, several numbers in it, right?
+
+
+4
+01:10:00.903 --> 01:10:02.903
+So, it's basically just a list,
+
+
+5
+01:10:02.903 --> 01:10:05.903
+of multiple…
+
+
+6
+01:10:05.903 --> 01:10:07.903
+a list of lists.
+
+
+7
+01:10:07.903 --> 01:10:12.903
+Right? It has multiple lists inside a list.
+
+
+8
+01:10:12.903 --> 01:10:15.903
+Um, yes, you can…
+
+
+9
+01:10:15.903 --> 01:10:17.903
+use, um…
+
+
+10
+01:10:17.903 --> 01:10:20.903
+Lists item directly.
+
+
+11
+01:10:20.903 --> 01:10:25.903
+But it's gonna take a very long time to run your calculations.
+
+
+12
+01:10:25.903 --> 01:10:30.903
+There's, like, uh, Python runs on processor, and it's…
+
+
+13
+01:10:30.903 --> 01:10:35.903
+It's going to be run, like, one item at a time.
+
+
+14
+01:10:35.903 --> 01:10:37.903
+And Python itself is a slow programming language.
+
+
+15
+01:10:37.903 --> 01:10:40.903
+Uh, whereas with NumPy,
+
+
+16
+01:10:40.903 --> 01:10:43.903
+Basically, it wraps C++,
+
+
+17
+01:10:43.903 --> 01:10:49.903
+Uh, with Python, so you'll still write Python, you'll still read Pythons,
+
+
+18
+01:10:49.903 --> 01:10:54.903
+Uh, but, um, behind the scene, it's gonna run C++.
+
+
+19
+01:10:54.903 --> 01:10:57.903
+That's why it's really fast.
+
+
+20
+01:10:57.903 --> 01:11:03.903
+So here's an example. So if you import…
+
+
+21
+01:11:03.903 --> 01:11:07.903
+Okay, I'll get to…
+
+
+22
+01:11:07.903 --> 01:11:11.903
+one of the…
+
+
+23
+01:11:11.903 --> 01:11:15.903
+And I suggest that you do the same. Open up the…
+
+
+24
+01:11:15.903 --> 01:11:17.903
+Uh, and as…
+
+
+25
+01:11:17.903 --> 01:11:20.903
+course, and go to mini-projects.
+
+
+26
+01:11:20.903 --> 01:11:28.903
+And, um, start the workspace there.
+
+
+27
+01:11:28.903 --> 01:11:32.903
+Okay, so… and if you create a new Python tree…
+
+
+28
+01:11:32.903 --> 01:11:36.903
+Um… nosepoke?
+
+
+29
+01:11:36.903 --> 01:11:39.903
+And run this.
+
+
+30
+01:11:39.903 --> 01:11:46.903
+Okay, so what this code does is, uh, first it imports NumPy, and it uses NP as in Elias.
+
+
+31
+01:11:46.903 --> 01:11:53.903
+So whenever you call NP, it's gonna… whenever you write NP, it's gonna call NumPy.
+
+
+32
+01:11:53.903 --> 01:11:57.903
+And it creates a list
+
+
+33
+01:11:57.903 --> 01:12:01.903
+And, um, it's going to calculate the mean
+
+
+34
+01:12:01.903 --> 01:12:04.903
+Um, and set it to average time variable.
+
+
+35
+01:12:04.903 --> 01:12:09.903
+And it calculates the normalized times.
+
+
+36
+01:12:09.903 --> 01:12:10.903
+So, if you type in…
+
+
+37
+01:12:10.903 --> 01:12:16.903
+times… here's how it's gonna look. Array.
+
+
+38
+01:12:16.903 --> 01:12:21.903
+And average time…
+
+
+39
+01:12:21.903 --> 01:12:24.903
+It's the average of all the time.
+
+
+40
+01:12:24.903 --> 01:12:27.903
+And normalize times…
+
+
+41
+01:12:27.903 --> 01:12:28.903
+is it calculates…
+
+
+42
+01:12:28.903 --> 01:12:33.903
+Um, every single element with the average time.
+
+
+43
+01:12:33.903 --> 01:12:36.903
+This feature is called broadcasting.
+
+
+44
+01:12:36.903 --> 01:12:39.903
+So, you just need to type in…
+
+
+45
+01:12:39.903 --> 01:12:43.903
+Um, the… the operation wants.
+
+
+46
+01:12:43.903 --> 01:12:47.903
+Uh, NPMAX.
+
+
+47
+01:12:47.903 --> 01:12:51.903
+Okay, times divided by NPMAX.
+
+
+48
+01:12:51.903 --> 01:12:53.903
+So, times has multiple elements.
+
+
+49
+01:12:53.903 --> 01:12:56.903
+But NPMAX?
+
+
+50
+01:12:56.903 --> 01:12:58.903
+It has…
+
+
+51
+01:12:58.903 --> 01:13:01.903
+Only a single value, right?
+
+
+52
+01:13:01.903 --> 01:13:09.903
+So you might be wondering, why does a single, uh, why is it that multiple elements can be divided by a single value?
+
+
+53
+01:13:09.903 --> 01:13:13.903
+Well, uh, that's what broadcasting does, okay?
+
+
+54
+01:13:13.903 --> 01:13:33.903
+So it broadcasts this single value to every single element in this object.
+
+
+55
+01:13:33.903 --> 01:13:34.903
+Yes, it's… normal…
+
+
+56
+01:13:34.903 --> 01:13:44.903
+When you work with normalized times, what does it mean? Is it useful, for example, for machine learning, or which is the practical example in which you can apply because for example in the past I saw when I was working with
+
+
+57
+01:13:44.903 --> 01:13:47.903
+With models that, for example.
+
+
+58
+01:13:47.903 --> 01:14:03.903
+To speed up things, for example, for days of the week, I replace them with numbers, for example, you know? Because it is better to use numbers in Taggers, in this case
+
+
+59
+01:14:03.903 --> 01:14:05.903
+Instead of
+
+
+60
+01:14:05.903 --> 01:14:20.903
+For example, the complete word string like Thursday, Wednesday, Tuesday, you know? So that's why normalized times is which is the practical use of that is for models
+
+
+61
+01:14:20.903 --> 01:14:22.903
+Yeah, for machine learning,
+
+
+62
+01:14:22.903 --> 01:14:25.903
+Um, but actually, statistics in general,
+
+
+63
+01:14:25.903 --> 01:14:30.903
+um… when you have a range of data,
+
+
+64
+01:14:30.903 --> 01:14:32.903
+Um, you'd want to…
+
+
+65
+01:14:32.903 --> 01:14:37.903
+And if you have a single data out of, like, a range of data,
+
+
+66
+01:14:37.903 --> 01:14:43.903
+Uh, you'd want the calc… the calculator, so to speak, to be able to
+
+
+67
+01:14:43.903 --> 01:14:46.903
+measure the distance between
+
+
+68
+01:14:46.903 --> 01:14:51.903
+Uh, that data across all of the data points that you have.
+
+
+69
+01:14:51.903 --> 01:14:53.903
+Normalization, basically,
+
+
+70
+01:14:53.903 --> 01:14:58.903
+allows you to set your range to, um, to a certain
+
+
+71
+01:14:58.903 --> 01:15:02.903
+specific range. In this case, 0 to 1.
+
+
+72
+01:15:02.903 --> 01:15:06.903
+Right? So, if this divides…
+
+
+73
+01:15:06.903 --> 01:15:08.903
+All of the values here.
+
+
+74
+01:15:08.903 --> 01:15:12.903
+with its maximum value,
+
+
+75
+01:15:12.903 --> 01:15:13.903
+16? Yeah.
+
+
+76
+01:15:13.903 --> 01:15:17.903
+Therefore, like, the maximum value in this case would be 1.
+
+
+77
+01:15:17.903 --> 01:15:21.903
+Right? And since there's no negative value, um,
+
+
+78
+01:15:21.903 --> 01:15:26.903
+the range is always going to be 0 to 1.
+
+
+79
+01:15:26.903 --> 01:15:27.903
+Great.
+
+
+80
+01:15:27.903 --> 01:15:33.903
+It gives the… yeah, so it gives the calculator, like, a way to… and it's especially useful if you're using…
+
+
+81
+01:15:33.903 --> 01:15:37.903
+Um, this value, normalized time, with other
+
+
+82
+01:15:37.903 --> 01:15:40.903
+so-called features in machine learning.
+
+
+83
+01:15:40.903 --> 01:15:41.903
+Right?
+
+
+84
+01:15:41.903 --> 01:15:44.903
+Yeah, of course.
+
+
+85
+01:15:44.903 --> 01:15:45.903
+Thanks.
+
+
+86
+01:15:45.903 --> 01:15:49.903
+Okay. Awesome.
+
+
+87
+01:15:49.903 --> 01:15:52.903
+Let's see… uh…
+
+
+88
+01:15:52.903 --> 01:15:55.903
+What is Pandas?
+
+
+89
+01:15:55.903 --> 01:16:00.903
+Um, Pandas, with all lowercase and parallel mode, um, is a Python module.
+
+
+90
+01:16:00.903 --> 01:16:05.903
+enables us to make an abstraction of a table called DataFrame.
+
+
+91
+01:16:05.903 --> 01:16:09.903
+Okay, here's how it differs with NumPy.
+
+
+92
+01:16:09.903 --> 01:16:12.903
+NumPy allows you to create a metrics,
+
+
+93
+01:16:12.903 --> 01:16:15.903
+of any dimension.
+
+
+94
+01:16:15.903 --> 01:16:21.903
+So, if you still remember, um, those, um, again, college mathematics, um, when you have, like,
+
+
+95
+01:16:21.903 --> 01:16:27.903
+a flat box with only single values. It's called a factor, right? When it has…
+
+
+96
+01:16:27.903 --> 01:16:36.903
+Um, two dimensions, it called a matrix. And you can also have metrics with 3 dimensions, four dimensions, and n dimensions.
+
+
+97
+01:16:36.903 --> 01:16:47.903
+Right? For data analyzes, you usually work with, uh, with two dimensions, and that's where Pandas can be.
+
+
+98
+01:16:47.903 --> 01:16:53.903
+Very useful. It creates the abstraction for those.
+
+
+99
+01:16:53.903 --> 01:16:57.903
+A column is called a series in Pandas, and a table…
+
+
+100
+01:16:57.903 --> 01:16:59.903
+Uh, which has two dimensions.
+
+
+101
+01:16:59.903 --> 01:17:02.903
+It's called a data frame.
+
+
+102
+01:17:02.903 --> 01:17:06.903
+And you can programmatically manipulate these objects.
+
+
+103
+01:17:06.903 --> 01:17:12.903
+So, um, so you can, for example, import a file from Excel spreadsheets.
+
+
+104
+01:17:12.903 --> 01:17:17.903
+You can manipulate the values directly from Python.
+
+
+105
+01:17:17.903 --> 01:17:23.903
+Um, and then… and then just, uh, I don't know, save it to another Excel file or anything.
+
+
+106
+01:17:23.903 --> 01:17:27.903
+Right? The typical pipeline is similar to that.
+
+
+107
+01:17:27.903 --> 01:17:31.903
+If you have multiple files, for example,
+
+
+108
+01:17:31.903 --> 01:17:36.903
+We can load each of them, manipulate them, merge them into a single data frame.
+
+
+109
+01:17:36.903 --> 01:17:38.903
+and analyze the merged data frame.
+
+
+110
+01:17:38.903 --> 01:17:43.903
+And maybe save the emergency data frame into another file.
+
+
+111
+01:17:43.903 --> 01:17:48.903
+And there's a pandas code example.
+
+
+112
+01:17:48.903 --> 01:17:53.903
+Um, but this example is not gonna run, because the data.csv…
+
+
+113
+01:17:53.903 --> 01:17:55.903
+doesn't exist.
+
+
+114
+01:17:55.903 --> 01:18:01.903
+Um, but let's… let's do this hypothetically. Hypothetically, if you have
+
+
+115
+01:18:01.903 --> 01:18:05.903
+a data frame.
+
+
+116
+01:18:05.903 --> 01:18:08.903
+that has, um, an H column,
+
+
+117
+01:18:08.903 --> 01:18:10.903
+and a status column.
+
+
+118
+01:18:10.903 --> 01:18:16.903
+Right? If you have, like, a table, let's just say a table,
+
+
+119
+01:18:16.903 --> 01:18:18.903
+You have H, you have status,
+
+
+120
+01:18:18.903 --> 01:18:23.903
+And then, um, you store it in a CSV file, comma-separated value. You can read
+
+
+121
+01:18:23.903 --> 01:18:26.903
+read that file in Pandas.
+
+
+122
+01:18:26.903 --> 01:18:27.903
+And you can… you can get…
+
+
+123
+01:18:27.903 --> 01:18:31.903
+a column, or in this case, a series,
+
+
+124
+01:18:31.903 --> 01:18:34.903
+Um, with this selector.
+
+
+125
+01:18:34.903 --> 01:18:36.903
+So, that is the…
+
+
+126
+01:18:36.903 --> 01:18:41.903
+the variable name, or in this case, the object name.
+
+
+127
+01:18:41.903 --> 01:18:44.903
+And then followed by square brackets.
+
+
+128
+01:18:44.903 --> 01:18:48.903
+And then the… inside that square bracket, it's the column name.
+
+
+129
+01:18:48.903 --> 01:18:50.903
+Or you can… you can do… mhm.
+
+
+130
+01:18:50.903 --> 01:18:51.903
+Right.
+
+
+131
+01:18:51.903 --> 01:18:59.903
+One quick question, pandas assumes that the first row are the headers
+
+
+132
+01:18:59.903 --> 01:19:02.903
+Um, well…
+
+
+133
+01:19:02.903 --> 01:19:04.903
+No, because, uh…
+
+
+134
+01:19:04.903 --> 01:19:08.903
+Well, you… it has a…
+
+
+135
+01:19:08.903 --> 01:19:12.903
+Um, it has a parameter to allow you to set that.
+
+
+136
+01:19:12.903 --> 01:19:13.903
+An option
+
+
+137
+01:19:13.903 --> 01:19:16.903
+By default, it does that, but you can change that.
+
+
+138
+01:19:16.903 --> 01:19:19.903
+And if you want to learn more about that, um…
+
+
+139
+01:19:19.903 --> 01:19:22.903
+You can… well, the best way is really to…
+
+
+140
+01:19:22.903 --> 01:19:27.903
+to, uh, to use AI agents, something like this.
+
+
+141
+01:19:27.903 --> 01:19:31.903
+Uh…
+
+
+142
+01:19:31.903 --> 01:19:34.903
+how to load…
+
+
+143
+01:19:34.903 --> 01:19:38.903
+CSV file in Pandas.
+
+
+144
+01:19:38.903 --> 01:19:41.903
+Uh, with…
+
+
+145
+01:19:41.903 --> 01:19:42.903
+Specific. Huh.
+
+
+146
+01:19:42.903 --> 01:19:45.903
+Yeah.
+
+
+147
+01:19:45.903 --> 01:19:49.903
+Uh, number, like this.
+
+
+148
+01:19:49.903 --> 01:19:53.903
+And, um, yeah, so you can, uh…
+
+
+149
+01:19:53.903 --> 01:19:57.903
+you see here, it sets the fourth…
+
+
+150
+01:19:57.903 --> 01:20:00.903
+fourth row as a header.
+
+
+151
+01:20:00.903 --> 01:20:02.903
+Right?
+
+
+152
+01:20:02.903 --> 01:20:04.903
+Okay.
+
+
+153
+01:20:04.903 --> 01:20:14.903
+Okay, because it says, like, for example, it was using the H there, and I saw that, for example, for example, in PySpark, you can say
+
+
+154
+01:20:14.903 --> 01:20:18.903
+hither true, for example, and it will
+
+
+155
+01:20:18.903 --> 01:20:24.903
+assume that the first row will have at least of heaters
+
+
+156
+01:20:24.903 --> 01:20:37.903
+In which you can… yeah, it will say H in one of those columns, of those commas separated values that are in the first row, for example
+
+
+157
+01:20:37.903 --> 01:20:39.903
+Yeah, um, uh…
+
+
+158
+01:20:39.903 --> 01:20:44.903
+There are small variants, but I don't think…
+
+
+159
+01:20:44.903 --> 01:20:46.903
+Um…
+
+
+160
+01:20:46.903 --> 01:20:50.903
+Yeah, uh, at least in… in…
+
+
+161
+01:20:50.903 --> 01:20:57.903
+Pandas, pandas, in this variant of Pandas, you can set the…
+
+
+162
+01:20:57.903 --> 01:21:00.903
+the number
+
+
+163
+01:21:00.903 --> 01:21:05.903
+off-road instead of true or false.
+
+
+164
+01:21:05.903 --> 01:21:10.903
+Okay, great. Good. Thanks.
+
+
+165
+01:21:10.903 --> 01:21:15.903
+In olden times, we actually have to go through the documentation,
+
+
+166
+01:21:15.903 --> 01:21:23.903
+And the API references to find this. So it's pretty nice that you have all this.
+
+
+167
+01:21:23.903 --> 01:21:24.903
+Yeah.
+
+
+168
+01:21:24.903 --> 01:21:31.903
+It's even nicer that you can let it to work for you.
+
+
+169
+01:21:31.903 --> 01:21:35.903
+Right. And by the way, a very unrelated, but I just read on news that…
+
+
+170
+01:21:35.903 --> 01:21:43.903
+let's say that 80% of cloud code was written by AI agent.
+
+
+171
+01:21:43.903 --> 01:21:47.903
+Okay, all right, anyway…
+
+
+172
+01:21:47.903 --> 01:21:49.903
+Um…
+
+
+173
+01:21:49.903 --> 01:21:53.903
+Yeah, um, you can… you can perform…
+
+
+174
+01:21:53.903 --> 01:21:56.903
+um, complex selections.
+
+
+175
+01:21:56.903 --> 01:21:59.903
+with, uh, with Pandas, too.
+
+
+176
+01:21:59.903 --> 01:22:03.903
+Like, in this case, if you want to…
+
+
+177
+01:22:03.903 --> 01:22:09.903
+choose… if you want to get rows where the age is lower than 11,
+
+
+178
+01:22:09.903 --> 01:22:11.903
+Um, you can… you can type it like so.
+
+
+179
+01:22:11.903 --> 01:22:14.903
+Okay? And create a selection.
+
+
+180
+01:22:14.903 --> 01:22:19.903
+And so, basically what it does here is that, uh,
+
+
+181
+01:22:19.903 --> 01:22:24.903
+it gives you the indexes, and you can use those indexes
+
+
+182
+01:22:24.903 --> 01:22:27.903
+A filter
+
+
+183
+01:22:27.903 --> 01:22:28.903
+We lost you.
+
+
+184
+01:22:28.903 --> 01:22:29.903
+Um,
+
+
+185
+01:22:29.903 --> 01:22:32.903
+Okay, it might be better to have an example of this.
+
+
+186
+01:22:32.903 --> 01:22:35.903
+Um, let's see what we can use.
+
+
+187
+01:22:35.903 --> 01:22:39.903
+It's actually good that we have…
+
+
+188
+01:22:39.903 --> 01:22:41.903
+We have used this notebook.
+
+
+189
+01:22:41.903 --> 01:22:43.903
+Because this notebook…
+
+
+190
+01:22:43.903 --> 01:22:47.903
+It has…
+
+
+191
+01:22:47.903 --> 01:22:52.903
+Um, it has these datasets that we can use directly.
+
+
+192
+01:22:52.903 --> 01:22:58.903
+Um, I'll just use a code that's already written.
+
+
+193
+01:22:58.903 --> 01:23:00.903
+So if you… if you do this…
+
+
+194
+01:23:00.903 --> 01:23:04.903
+So, notice here that, um, we got the database.
+
+
+195
+01:23:04.903 --> 01:23:07.903
+Um, well, the data sets.
+
+
+196
+01:23:07.903 --> 01:23:10.903
+And we can do this.
+
+
+197
+01:23:10.903 --> 01:23:14.903
+Right? Or rather, let's just use open, because it's easier.
+
+
+198
+01:23:14.903 --> 01:23:17.903
+Use numeric values.
+
+
+199
+01:23:17.903 --> 01:23:21.903
+Um, but we can also do…
+
+
+200
+01:23:21.903 --> 01:23:24.903
+What if we want to get the open price of…
+
+
+201
+01:23:24.903 --> 01:23:28.903
+higher than… 100.
+
+
+202
+01:23:28.903 --> 01:23:31.903
+It gives you, um…
+
+
+203
+01:23:31.903 --> 01:23:33.903
+the indexes.
+
+
+204
+01:23:33.903 --> 01:23:36.903
+And the… the…
+
+
+205
+01:23:36.903 --> 01:23:39.903
+the mask, so-called a mask.
+
+
+206
+01:23:39.903 --> 01:23:41.903
+Um, for each of those indexes.
+
+
+207
+01:23:41.903 --> 01:23:45.903
+Right? Then you can use that mask.
+
+
+208
+01:23:45.903 --> 01:23:48.903
+Like this.
+
+
+209
+01:23:48.903 --> 01:23:51.903
+It's gonna give you only the data where…
+
+
+210
+01:23:51.903 --> 01:23:53.903
+Um, the values are larger than…
+
+
+211
+01:23:53.903 --> 01:23:57.903
+the value open is larger than 100.
+
+
+212
+01:23:57.903 --> 01:24:04.903
+In this case. Make sense?
+
+
+213
+01:24:04.903 --> 01:24:05.903
+Yep.
+
+
+214
+01:24:05.903 --> 01:24:08.903
+Right.
+
+
+215
+01:24:08.903 --> 01:24:11.903
+And you can also set, um…
+
+
+216
+01:24:11.903 --> 01:24:15.903
+the value of other columns.
+
+
+217
+01:24:15.903 --> 01:24:21.903
+Uh, and combine that with a selection. This is something that you often want to do, right?
+
+
+218
+01:24:21.903 --> 01:24:30.903
+Let's say if you want to set, um, all of the rows where the age is lower than 11, set the status to children.
+
+
+219
+01:24:30.903 --> 01:24:32.903
+And what can we do here?
+
+
+220
+01:24:32.903 --> 01:24:36.903
+Um, so we can…
+
+
+221
+01:24:36.903 --> 01:24:38.903
+can, for example, create another
+
+
+222
+01:24:38.903 --> 01:24:46.903
+column.
+
+
+223
+01:24:46.903 --> 01:24:50.903
+like this.
+
+
+224
+01:24:50.903 --> 01:24:54.903
+This is so wrong.
+
+
+225
+01:24:54.903 --> 01:24:58.903
+But, uh, for the… for the sake of…
+
+
+226
+01:24:58.903 --> 01:25:00.903
+Example, let's just do this.
+
+
+227
+01:25:00.903 --> 01:25:12.903
+It's, like, price larger than 100 is not always expensive.
+
+
+228
+01:25:12.903 --> 01:25:16.903
+Something like this, and if you print out PDF,
+
+
+229
+01:25:16.903 --> 01:25:20.903
+It's going to go through for all of the data where
+
+
+230
+01:25:20.903 --> 01:25:24.903
+Where the open price is larger than 100.
+
+
+231
+01:25:24.903 --> 01:25:28.903
+Okay?
+
+
+232
+01:25:28.903 --> 01:25:35.903
+Okay. There's no need to memorize these pandas functions, uh, you already know this. Simply search, how do I…
+
+
+233
+01:25:35.903 --> 01:25:38.903
+Do you think this thing in pandas?
+
+
+234
+01:25:38.903 --> 01:25:42.903
+And… I don't know if anybody, any human,
+
+
+235
+01:25:42.903 --> 01:25:49.903
+still reach this, but you can… you can read the documentation, the API references,
+
+
+236
+01:25:49.903 --> 01:25:51.903
+And, um…
+
+
+237
+01:25:51.903 --> 01:25:57.903
+And yeah, and find whatever you need from there.
+
+
+238
+01:25:57.903 --> 01:26:00.903
+Like this.
+
+
+239
+01:26:00.903 --> 01:26:03.903
+So, this brings back memories, because this is usually…
+
+
+240
+01:26:03.903 --> 01:26:05.903
+the page that I…
+
+
+241
+01:26:05.903 --> 01:26:10.903
+that I consult often?
+
+
+242
+01:26:10.903 --> 01:26:16.903
+Yeah, you can do all this with AI. Nowadays, so it's…
+
+
+243
+01:26:16.903 --> 01:26:21.903
+you know, maybe no longer relevant, but it's still good to know.
+
+
+244
+01:26:21.903 --> 01:26:24.903
+And, um…
+
+
+245
+01:26:24.903 --> 01:26:27.903
+At the bottom of each documentation page, there are also some examples.
+
+
+246
+01:26:27.903 --> 01:26:32.903
+Okay, that's, um, the most important thing is really, and this is…
+
+
+247
+01:26:32.903 --> 01:26:38.903
+irreplaceable by AI, um…
+
+
+248
+01:26:38.903 --> 01:26:42.903
+Maybe. Uh, the understanding itself, the journey to understanding pandas.
+
+
+249
+01:26:42.903 --> 01:26:48.903
+Um, I… I strongly suggest that you take a read of…
+
+
+250
+01:26:48.903 --> 01:26:51.903
+this page. It only takes you, hopefully, 10 minutes.
+
+
+251
+01:26:51.903 --> 01:27:00.903
+It provides you with all of those good examples. You can try running them on the workspace.
+
+
+252
+01:27:00.903 --> 01:27:05.903
+And it's gonna give you, like, some ideas on, like, what Pandas is, and, like,
+
+
+253
+01:27:05.903 --> 01:27:11.903
+Uh, what's… and most importantly is, like, what can Pandas do?
+
+
+254
+01:27:11.903 --> 01:27:15.903
+Okay? Because a lot of these things, even if you already know
+
+
+255
+01:27:15.903 --> 01:27:20.903
+Even if you already use AI agents,
+
+
+256
+01:27:20.903 --> 01:27:23.903
+like, um, you still need to at least know
+
+
+257
+01:27:23.903 --> 01:27:30.903
+the capabilities of the tools that you want the AI to use, right? Otherwise, you can't…
+
+
+258
+01:27:30.903 --> 01:27:32.903
+use it, like, very optimally.
+
+
+259
+01:27:32.903 --> 01:27:37.903
+And… and that's where I'm reading those
+
+
+260
+01:27:37.903 --> 01:27:38.903
+Um, user guide,
+
+
+261
+01:27:38.903 --> 01:27:40.903
+or tutorials, uh…
+
+
+262
+01:27:40.903 --> 01:27:44.903
+is still going to be useful.
+
+
+263
+01:27:44.903 --> 01:27:47.903
+It makes you a better AI user.
+
+
+264
+01:27:47.903 --> 01:27:55.903
+Okay, so another function that I use quite often is .info. It allows you to
+
+
+265
+01:27:55.903 --> 01:28:00.903
+provide, uh, to… to… to see a summary of your data frame.
+
+
+266
+01:28:00.903 --> 01:28:04.903
+such. See the data types…
+
+
+267
+01:28:04.903 --> 01:28:06.903
+the, um…
+
+
+268
+01:28:06.903 --> 01:28:08.903
+The number of entries…
+
+
+269
+01:28:08.903 --> 01:28:14.903
+columns, and what's not.
+
+
+270
+01:28:14.903 --> 01:28:20.903
+Um, for numeric data, you can use Describe. It's going to provide…
+
+
+271
+01:28:20.903 --> 01:28:26.903
+Um, to output the summary statistics.
+
+
+272
+01:28:26.903 --> 01:28:31.903
+Counts means standard deviation, minimum, the quartiles.
+
+
+273
+01:28:31.903 --> 01:28:36.903
+the maximum number… the maximum value.
+
+
+274
+01:28:36.903 --> 01:28:40.903
+Okay? And this is pretty important to value counts.
+
+
+275
+01:28:40.903 --> 01:28:43.903
+So let's… let's just see this in action.
+
+
+276
+01:28:43.903 --> 01:28:50.903
+So, let's say you're working with original data. In this case, the ordinal data is expensive or not.
+
+
+277
+01:28:50.903 --> 01:28:52.903
+Right? And you want to find out
+
+
+278
+01:28:52.903 --> 01:28:57.903
+How many of those rows are expensive, and how many of those rows are not expensive?
+
+
+279
+01:28:57.903 --> 01:29:04.903
+can do value count with that.
+
+
+280
+01:29:04.903 --> 01:29:08.903
+That's our new counts.
+
+
+281
+01:29:08.903 --> 01:29:11.903
+Okay? It's going to tell you…
+
+
+282
+01:29:11.903 --> 01:29:14.903
+Exactly that. How many rows?
+
+
+283
+01:29:14.903 --> 01:29:24.903
+have the expensive value true, and how many are volts.
+
+
+284
+01:29:24.903 --> 01:29:26.903
+You can also group the sales.
+
+
+285
+01:29:26.903 --> 01:29:29.903
+Uh, you can also do grouping and aggregations.
+
+
+286
+01:29:29.903 --> 01:29:33.903
+with Pandas. There's a similar to…
+
+
+287
+01:29:33.903 --> 01:29:36.903
+um, pivot table.
+
+
+288
+01:29:36.903 --> 01:29:41.903
+If you ever use… if you've ever used this in Excel.
+
+
+289
+01:29:41.903 --> 01:29:46.903
+like, in this case, um, you can group
+
+
+290
+01:29:46.903 --> 01:29:48.903
+by the city, and then…
+
+
+291
+01:29:48.903 --> 01:29:51.903
+Um,
+
+
+292
+01:29:51.903 --> 01:29:55.903
+the sum of all of those data, in this case,
+
+
+293
+01:29:55.903 --> 01:29:59.903
+Um, uh, the sum of the sales data.
+
+
+294
+01:29:59.903 --> 01:30:03.903
+You can also use other aggregation methods.
+
+
+295
+01:30:03.903 --> 01:30:07.903
+sum, and mean of sales, for example.
+
+
+296
+01:30:07.903 --> 01:30:10.903
+Like, in our example here…
+
+
+297
+01:30:10.903 --> 01:30:15.903
+Um, let's see what we can do…
+
+
+298
+01:30:15.903 --> 01:30:20.903
+Okay, what's the syntax again?
+
+
+299
+01:30:20.903 --> 01:30:28.903
+Let's see, um…
+
+
+300
+01:30:28.903 --> 01:30:30.903
+Hmm.
+
+
+301
+01:30:30.903 --> 01:30:32.903
+Okay, um, I…
+
+
+302
+01:30:32.903 --> 01:30:35.903
+I can… I can do, like, a grouping…
+
+
+303
+01:30:35.903 --> 01:30:40.903
+a year, and, um, get a… get a…
+
+
+304
+01:30:40.903 --> 01:30:42.903
+an average of… of…
+
+
+305
+01:30:42.903 --> 01:30:46.903
+of each of… each of those years.
+
+
+306
+01:30:46.903 --> 01:30:48.903
+Um…
+
+
+307
+01:30:48.903 --> 01:30:52.903
+And here's the thing, it's actually a good… a very good example.
+
+
+308
+01:30:52.903 --> 01:30:56.903
+So, um, as I mentioned earlier, I don't like to memorize things.
+
+
+309
+01:30:56.903 --> 01:31:01.903
+Even… even now, I don't remember how I can group
+
+
+310
+01:31:01.903 --> 01:31:03.903
+the dates, right? And…
+
+
+311
+01:31:03.903 --> 01:31:10.903
+I think the dates are even in the wrong data format, because it's… because we just imported
+
+
+312
+01:31:10.903 --> 01:31:13.903
+It's imported the dates from the CSV file.
+
+
+313
+01:31:13.903 --> 01:31:17.903
+So let's check this out with info.
+
+
+314
+01:31:17.903 --> 01:31:24.903
+So notice here. This is… this is still an object, right? We want… we want it to be a date-time object instead, so we can group
+
+
+315
+01:31:24.903 --> 01:31:38.903
+Group it by the years.
+
+
+316
+01:31:38.903 --> 01:31:45.903
+Um, I'll, uh, in this case, I'm trying my best, um,
+
+
+317
+01:31:45.903 --> 01:31:56.903
+if I remember the syntax correctly, I will be wrong here.
+
+
+318
+01:31:56.903 --> 01:32:01.903
+8 times. Okay, this is gonna be wrong, because this is a wrong syntax.
+
+
+319
+01:32:01.903 --> 01:32:02.903
+But, still, I can use…
+
+
+320
+01:32:02.903 --> 01:32:06.903
+In this case, Udacity's AI, and this is a, um…
+
+
+321
+01:32:06.903 --> 01:32:09.903
+a good way to…
+
+
+322
+01:32:09.903 --> 01:32:14.903
+To show you, uh, what this can do, and actually show myself, because I've never used it.
+
+
+323
+01:32:14.903 --> 01:32:18.903
+I use this, um, this AI agent.
+
+
+324
+01:32:18.903 --> 01:32:24.903
+Um, fix this code.
+
+
+325
+01:32:24.903 --> 01:32:27.903
+Let's see if it even understands…
+
+
+326
+01:32:27.903 --> 01:32:35.903
+what we wanted to do. Oh, okay. Yes.
+
+
+327
+01:32:35.903 --> 01:32:41.903
+So the first thing is to set the date as a date time.
+
+
+328
+01:32:41.903 --> 01:32:44.903
+If I do info again, it converts to date time.
+
+
+329
+01:32:44.903 --> 01:32:48.903
+and I want to group.
+
+
+330
+01:32:48.903 --> 01:32:52.903
+by gigs.
+
+
+331
+01:32:52.903 --> 01:32:54.903
+And, um…
+
+
+332
+01:32:54.903 --> 01:32:56.903
+I want to get the mean.
+
+
+333
+01:32:56.903 --> 01:33:14.903
+of the, um, close price.
+
+
+334
+01:33:14.903 --> 01:33:25.903
+by here.
+
+
+335
+01:33:25.903 --> 01:33:27.903
+So, this is the code.
+
+
+336
+01:33:27.903 --> 01:33:31.903
+that I need.
+
+
+337
+01:33:31.903 --> 01:33:40.903
+Okay…
+
+
+338
+01:33:40.903 --> 01:33:45.903
+The irony here is I'm definitely not gonna pass any programming interview very soon.
+
+
+339
+01:33:45.903 --> 01:33:48.903
+Okay,
+
+
+340
+01:33:48.903 --> 01:33:50.903
+But yeah, so Group By…
+
+
+341
+01:33:50.903 --> 01:33:52.903
+DT here…
+
+
+342
+01:33:52.903 --> 01:33:55.903
+uh, aggregate… then aggregates with a…
+
+
+343
+01:33:55.903 --> 01:33:59.903
+close, um, close column.
+
+
+344
+01:33:59.903 --> 01:34:01.903
+And get the mean of each year.
+
+
+345
+01:34:01.903 --> 01:34:09.903
+Okay? And I've shown you, like, the whole process of how I will do it.
+
+
+346
+01:34:09.903 --> 01:34:22.903
+With the help of the agent that is provided by Udacity. So this is very useful.
+
+
+347
+01:34:22.903 --> 01:34:26.903
+Okay. All right, so here's what I want you to do.
+
+
+348
+01:34:26.903 --> 01:34:28.903
+Um, and I'm gonna give you, um…
+
+
+349
+01:34:28.903 --> 01:34:31.903
+10 minutes to…
+
+
+350
+01:34:31.903 --> 01:34:34.903
+To open up, um, this workspace.
+
+
+351
+01:34:34.903 --> 01:34:37.903
+Okay? And, um…
+
+
+352
+01:34:37.903 --> 01:34:43.903
+try running this exercise.
+
+
+353
+01:34:43.903 --> 01:34:45.903
+You can… you can either…
+
+
+354
+01:34:45.903 --> 01:34:47.903
+Oops.
+
+
+355
+01:34:47.903 --> 01:34:49.903
+You can either use the…
+
+
+356
+01:34:49.903 --> 01:34:54.903
+Um, the empty exercise, if you want to learn more, or…
+
+
+357
+01:34:54.903 --> 01:34:57.903
+You can't even run the…
+
+
+358
+01:34:57.903 --> 01:35:02.903
+the… from the solution exercise, uh…
+
+
+359
+01:35:02.903 --> 01:35:05.903
+It's up to you, really. But what I want you to do is to…
+
+
+360
+01:35:05.903 --> 01:35:09.903
+to, um, give me the answer of this.
+
+
+361
+01:35:09.903 --> 01:35:13.903
+of this code.
+
+
+362
+01:35:13.903 --> 01:35:16.903
+what will… what will…
+
+
+363
+01:35:16.903 --> 01:35:18.903
+this code, uh,
+
+
+364
+01:35:18.903 --> 01:35:20.903
+output.
+
+
+365
+01:35:20.903 --> 01:35:23.903
+And, um, I'm gonna try something new.
+
+
+366
+01:35:23.903 --> 01:35:26.903
+Um, it didn't work in the previous session.
+
+
+367
+01:35:26.903 --> 01:35:30.903
+But I'm gonna divide you into two groups.
+
+
+368
+01:35:30.903 --> 01:35:33.903
+So you can discuss within yourself.
+
+
+369
+01:35:33.903 --> 01:35:36.903
+Um, and see if you can…
+
+
+370
+01:35:36.903 --> 01:35:52.903
+get this answer right.
+
+
+371
+01:35:52.903 --> 01:35:59.903
+So, I'm going to use what's called a breakout rooms, and this is usually a…
+
+
+372
+01:35:59.903 --> 01:36:03.903
+Um, a feature, Zoom feature,
+
+
+373
+01:36:03.903 --> 01:36:09.903
+It's used for, um, creating a brick, right? But I'll… I'd like to see…
+
+
+374
+01:36:09.903 --> 01:36:11.903
+If those break rooms
+
+
+375
+01:36:11.903 --> 01:36:14.903
+can also display
+
+
+376
+01:36:14.903 --> 01:36:16.903
+the quiz pop up.
+
+
+377
+01:36:16.903 --> 01:36:19.903
+So I'm going to divide you into break rooms.
+
+
+378
+01:36:19.903 --> 01:36:22.903
+And if you don't see any pop up,
+
+
+379
+01:36:22.903 --> 01:36:27.903
+Could you go… could you… could you please go back to this room and let me know?
+
+
+380
+01:36:27.903 --> 01:36:32.903
+Sorry to have to do this experience… experiment with you, but…
+
+
+381
+01:36:32.903 --> 01:36:37.903
+Um, I think, I think, um, this has the potential to be
+
+
+382
+01:36:37.903 --> 01:37:07.903
+very useful in our future sessions.
+
+
+383
+01:38:30.903 --> 01:38:37.903
+Apparently, it takes, like, um, 60 seconds for the rooms to close.
+
+
+384
+01:38:37.903 --> 01:38:48.903
+Ah, this… this is such a weird feature. It's so incomplete.
+
+
+385
+01:38:48.903 --> 01:38:50.903
+Um, we're gonna have…
+
+
+386
+01:38:50.903 --> 01:38:52.903
+Um, 10 more seconds.
+
+
+387
+01:38:52.903 --> 01:39:05.903
+And I'm gonna share the quiz here.
+
+
+388
+01:39:05.903 --> 01:39:06.903
+Alright.
+
+
+389
+01:39:06.903 --> 01:39:07.903
+What I do in every
+
+
+390
+01:39:07.903 --> 01:39:16.903
+Oh, yeah.
+
+
+391
+01:39:16.903 --> 01:39:18.903
+Oh, I need to… I need to move…
+
+
+392
+01:39:18.903 --> 01:39:23.903
+Manually?
+
+
+393
+01:39:23.903 --> 01:39:27.903
+No.
+
+
+394
+01:39:27.903 --> 01:39:30.903
+Yeah.
+
+
+395
+01:39:30.903 --> 01:39:32.903
+Right, it looks like I need to remove…
+
+
+396
+01:39:32.903 --> 01:39:40.903
+The…
+
+
+397
+01:39:40.903 --> 01:39:42.903
+Okay, um, our…
+
+
+398
+01:39:42.903 --> 01:39:46.903
+Are you guys all back to the min-room?
+
+
+399
+01:39:46.903 --> 01:39:47.903
+Yes.
+
+
+400
+01:39:47.903 --> 01:39:48.903
+Okay, good.
+
+
+401
+01:39:48.903 --> 01:39:49.903
+Well, I think so.
+
+
+402
+01:39:49.903 --> 01:39:51.903
+Okay, so…
+
+
+403
+01:39:51.903 --> 01:39:59.903
+It was a short breakout. It was really short. I barely got a time to figure out what the names of the CSVs were
+
+
+404
+01:39:59.903 --> 01:40:01.903
+Uh, okay, the thing is, like, um, that's…
+
+
+405
+01:40:01.903 --> 01:40:06.903
+Uh, dev experiment was a failure. I'm sorry about that.
+
+
+406
+01:40:06.903 --> 01:40:09.903
+So, apparently, the… I… I can't share…
+
+
+407
+01:40:09.903 --> 01:40:10.903
+the… the pulse.
+
+
+408
+01:40:10.903 --> 01:40:11.903
+We could give me one day
+
+
+409
+01:40:11.903 --> 01:40:14.903
+in the break rooms?
+
+
+410
+01:40:14.903 --> 01:40:17.903
+I can only share it in the…
+
+
+411
+01:40:17.903 --> 01:40:18.903
+Right now
+
+
+412
+01:40:18.903 --> 01:40:22.903
+in the main room. So I'm gonna share it right here.
+
+
+413
+01:40:22.903 --> 01:40:27.903
+I'm going to experiment with this later on, uh, in my own time.
+
+
+414
+01:40:27.903 --> 01:40:31.903
+But for now, um, here's the quiz.
+
+
+415
+01:40:31.903 --> 01:40:33.903
+And, um…
+
+
+416
+01:40:33.903 --> 01:40:36.903
+Uh, you can…
+
+
+417
+01:40:36.903 --> 01:40:43.903
+You can, um, discuss here in the main room, feel free to do so.
+
+
+418
+01:40:43.903 --> 01:40:47.903
+Man, it would have been really nice if…
+
+
+419
+01:40:47.903 --> 01:40:55.903
+if that feature works.
+
+
+420
+01:40:55.903 --> 01:40:58.903
+You're a great desire
+
+
+421
+01:40:58.903 --> 01:41:00.903
+Let's join the call again
+
+
+422
+01:41:00.903 --> 01:41:20.903
+Oh, am I breaking out?
+
+
+423
+01:41:20.903 --> 01:41:21.903
+Yeah.
+
+
+424
+01:41:21.903 --> 01:41:47.903
+Yes, it is.
+
+
+425
+01:41:47.903 --> 01:41:52.903
+Are you talking about the wealth table
+
+
+426
+01:41:52.903 --> 01:41:55.903
+Oh, um, yeah, Batri, I saw… I just saw your message.
+
+
+427
+01:41:55.903 --> 01:41:58.903
+Yeah, okay.
+
+
+428
+01:41:58.903 --> 01:42:02.903
+I believe that we will need to look further
+
+
+429
+01:42:02.903 --> 01:42:09.903
+Yeah, can we then access the recorded session and the presentation?
+
+
+430
+01:42:09.903 --> 01:42:12.903
+Yeah, of course. I'm gonna share it in the community.
+
+
+431
+01:42:12.903 --> 01:42:16.903
+Mmm, okay.
+
+
+432
+01:42:16.903 --> 01:42:17.903
+Thanks, Jane.
+
+
+433
+01:42:17.903 --> 01:42:21.903
+Actually, I… if you look at the community page, um, I've already shared the presentation of…
+
+
+434
+01:42:21.903 --> 01:42:24.903
+of this, uh, for this session.
+
+
+435
+01:42:24.903 --> 01:42:28.903
+I don't know if you can access it, though.
+
+
+436
+01:42:28.903 --> 01:42:29.903
+This was, um…
+
+
+437
+01:42:29.903 --> 01:42:35.903
+I'll share my screen again.
+
+
+438
+01:42:35.903 --> 01:42:38.903
+Um, can you try going to…
+
+
+439
+01:42:38.903 --> 01:42:44.903
+this page, community.udacity.com slash c.
+
+
+440
+01:42:44.903 --> 01:42:45.903
+Then followed by data engineering.
+
+
+441
+01:42:45.903 --> 01:43:06.903
+Okay, I'll check it now.
+
+
+442
+01:43:06.903 --> 01:43:09.903
+Okay?
+
+
+443
+01:43:09.903 --> 01:43:17.903
+So yeah, um, I… I pasted the link to the page in the chat room.
+
+
+444
+01:43:17.903 --> 01:43:36.903
+The presentation should be here.
+
+
+445
+01:43:36.903 --> 01:43:41.903
+Do you see the presentation?
+
+
+446
+01:43:41.903 --> 01:43:42.903
+Yes, Jay.
+
+
+447
+01:43:42.903 --> 01:43:45.903
+Awesome. All right.
+
+
+448
+01:43:45.903 --> 01:43:46.903
+Okay, so it's there.
+
+
+449
+01:43:46.903 --> 01:43:51.903
+Yes, I can see it, yes.
+
+
+450
+01:43:51.903 --> 01:43:59.903
+Okay, let's see…
+
+
+451
+01:43:59.903 --> 01:44:17.903
+Okay, it looks like most of you didn't attempt the poll, the quiz, do you need more time, or…?
+
+
+452
+01:44:17.903 --> 01:44:25.903
+You know, I'm following the notebook, and I got to the point where I
+
+
+453
+01:44:25.903 --> 01:44:29.903
+Imported the CSVs for all 3, and I'm reading the instructions about
+
+
+454
+01:44:29.903 --> 01:44:37.903
+Manipulating the column header for the three, so that you could join the tables together. So I think overall
+
+
+455
+01:44:37.903 --> 01:44:39.903
+This is just taking more time.
+
+
+456
+01:44:39.903 --> 01:44:44.903
+Oh, okay.
+
+
+457
+01:44:44.903 --> 01:44:47.903
+But I don't mind proceeding with the class for the sake of time
+
+
+458
+01:44:47.903 --> 01:44:48.903
+But
+
+
+459
+01:44:48.903 --> 01:44:52.903
+Yeah, that's why we still got, like, around 5 minutes or so.
+
+
+460
+01:44:52.903 --> 01:44:56.903
+Um…
+
+
+461
+01:44:56.903 --> 01:45:00.903
+And, yeah, um…
+
+
+462
+01:45:00.903 --> 01:45:05.903
+Um, if it helps, you don't actually need to attempt the…
+
+
+463
+01:45:05.903 --> 01:45:12.903
+the… the exercise, because… because attempting to complete all of this exercise is going to take way more time than that.
+
+
+464
+01:45:12.903 --> 01:45:17.903
+Um, and this… this exercise is just to…
+
+
+465
+01:45:17.903 --> 01:45:21.903
+Um… to see if you can…
+
+
+466
+01:45:21.903 --> 01:45:27.903
+um, you know, run all the code and… and…
+
+
+467
+01:45:27.903 --> 01:45:31.903
+and get the correct value, because that's what we've been…
+
+
+468
+01:45:31.903 --> 01:45:35.903
+Uh, we've been talking about so far, right?
+
+
+469
+01:45:35.903 --> 01:45:38.903
+running the notebook.
+
+
+470
+01:45:38.903 --> 01:46:08.903
+That's what I wanted to test, actually.
+
+
+471
+01:48:33.903 --> 01:48:35.903
+Okay, so we still have 2 more minutes.
+
+
+472
+01:48:35.903 --> 01:48:39.903
+And, um, all you need to do…
+
+
+473
+01:48:39.903 --> 01:48:40.903
+is that you can just…
+
+
+474
+01:48:40.903 --> 01:48:44.903
+open up the solution page.
+
+
+475
+01:48:44.903 --> 01:48:46.903
+And then you can create…
+
+
+476
+01:48:46.903 --> 01:48:50.903
+a code block at the end.
+
+
+477
+01:48:50.903 --> 01:48:53.903
+And you just need to run all of the code blocks.
+
+
+478
+01:48:53.903 --> 01:48:56.903
+Including the… the last…
+
+
+479
+01:48:56.903 --> 01:48:59.903
+code block that you just added.
+
+
+480
+01:48:59.903 --> 01:49:02.903
+And, um, in the last cookbook, you can add, uh,
+
+
+481
+01:49:02.903 --> 01:49:10.903
+the question that I shared.
+
+
+482
+01:49:10.903 --> 01:49:12.903
+It should print you…
+
+
+483
+01:49:12.903 --> 01:49:15.903
+It should give you the…
+
+
+484
+01:49:15.903 --> 01:49:45.903
+the value that we need.
+
+
+485
+01:50:19.903 --> 01:50:25.903
+All right, uh, end the quiz.
+
+
+486
+01:50:25.903 --> 01:50:30.903
+Okay, so, um…
+
+
+487
+01:50:30.903 --> 01:50:36.903
+I'm not quite sure if I've made… maybe I've made myself…
+
+
+488
+01:50:36.903 --> 01:50:41.903
+I haven't made myself very clear in this quiz, yeah?
+
+
+489
+01:50:41.903 --> 01:50:44.903
+So, um… because, like,
+
+
+490
+01:50:44.903 --> 01:50:46.903
+Um, you…
+
+
+491
+01:50:46.903 --> 01:50:48.903
+First of all, on the…
+
+
+492
+01:50:48.903 --> 01:50:52.903
+Oh, I saw only 5 answers.
+
+
+493
+01:50:52.903 --> 01:50:55.903
+And the… the answers…
+
+
+494
+01:50:55.903 --> 01:50:58.903
+uh… are spread.
+
+
+495
+01:50:58.903 --> 01:51:02.903
+Uh, pretty evenly.
+
+
+496
+01:51:02.903 --> 01:51:07.903
+Um, so maybe you can tell me the, uh, what difficulties do you have?
+
+
+497
+01:51:07.903 --> 01:51:19.903
+Um, in attempting this quiz.
+
+
+498
+01:51:19.903 --> 01:51:22.903
+Any of you want to share?
+
+
+499
+01:51:22.903 --> 01:51:25.903
+In the Jupyter Notebook
+
+
+500
+01:51:25.903 --> 01:51:34.903
+You can run each of the lines independently, so you have to run them manually in order, and I'm expecting if I just hit the big run button at the top, that it goes through each of them sequentially, and it doesn't seem to be doing that
+
+
+501
+01:51:34.903 --> 01:51:36.903
+Oh…
+
+
+502
+01:51:36.903 --> 01:51:43.903
+Okay, so the run button only runs a single code cell.
+
+
+503
+01:51:43.903 --> 01:51:44.903
+And the concern was
+
+
+504
+01:51:44.903 --> 01:51:48.903
+If you want to run all of the code cell, you can click on sell, and run all.
+
+
+505
+01:51:48.903 --> 01:51:51.903
+Like this.
+
+
+506
+01:51:51.903 --> 01:51:54.903
+So, as you see here, I opened up the solution notebook.
+
+
+507
+01:51:54.903 --> 01:51:57.903
+And I added, um, that code.
+
+
+508
+01:51:57.903 --> 01:52:00.903
+At the bottom, and it…
+
+
+509
+01:52:00.903 --> 01:52:05.903
+gives me the answer, Amazon.
+
+
+510
+01:52:05.903 --> 01:52:07.903
+And where was the run all button? It goes to all the lines.
+
+
+511
+01:52:07.903 --> 01:52:11.903
+Um, sell, run all.
+
+
+512
+01:52:11.903 --> 01:52:12.903
+Haha, that's it.
+
+
+513
+01:52:12.903 --> 01:52:22.903
+Thank you. Yeah, yeah, so that run button is, I thought that where it says the little play button, I thought that that was run also sell run all. Okay, I think
+
+
+514
+01:52:22.903 --> 01:52:32.903
+Yeah, no problem. I'm glad we have this exercise, now I know that there's that issue, too.
+
+
+515
+01:52:32.903 --> 01:52:37.903
+Alright. So, um, we won't have time to cover, like, uh, each of these…
+
+
+516
+01:52:37.903 --> 01:52:41.903
+hotel, um, so you can…
+
+
+517
+01:52:41.903 --> 01:52:43.903
+attempt at, uh, in your own time.
+
+
+518
+01:52:43.903 --> 01:52:46.903
+But it has all of the…
+
+
+519
+01:52:46.903 --> 01:52:49.903
+the… the functionalities that we've…
+
+
+520
+01:52:49.903 --> 01:52:54.903
+mentioned so far, like the broadcasting here…
+
+
+521
+01:52:54.903 --> 01:52:56.903
+And, um, uh…
+
+
+522
+01:52:56.903 --> 01:52:59.903
+getting the functions, filtering…
+
+
+523
+01:52:59.903 --> 01:53:01.903
+Right?
+
+
+524
+01:53:01.903 --> 01:53:07.903
+And any of you need more help, too, Marvin can also help you with that.
+
+
+525
+01:53:07.903 --> 01:53:13.903
+And the same actually goes with the… with the project of this, um,
+
+
+526
+01:53:13.903 --> 01:53:15.903
+of this course.
+
+
+527
+01:53:15.903 --> 01:53:19.903
+Um, it's very straightforward.
+
+
+528
+01:53:19.903 --> 01:53:22.903
+the project of this course, that is.
+
+
+529
+01:53:22.903 --> 01:53:25.903
+If you go to the Explore US Bank Share Data,
+
+
+530
+01:53:25.903 --> 01:53:28.903
+Um, there are pages…
+
+
+531
+01:53:28.903 --> 01:53:32.903
+with practice problems and practice solutions.
+
+
+532
+01:53:32.903 --> 01:53:39.903
+Um, in those practice problems, you're gonna create functions that you're gonna use in your
+
+
+533
+01:53:39.903 --> 01:53:42.903
+final project.
+
+
+534
+01:53:42.903 --> 01:53:45.903
+And in addition to another functionality.
+
+
+535
+01:53:45.903 --> 01:53:47.903
+And use this page.
+
+
+536
+01:53:47.903 --> 01:53:52.903
+Just this slide as a reference. So, these are what you need to do, load…
+
+
+537
+01:53:52.903 --> 01:53:56.903
+the CSV files, print out the starter sticks,
+
+
+538
+01:53:56.903 --> 01:54:00.903
+And this is the item that most learners…
+
+
+539
+01:54:00.903 --> 01:54:04.903
+many learners forgot to do.
+
+
+540
+01:54:04.903 --> 01:54:07.903
+Because it's not in one…
+
+
+541
+01:54:07.903 --> 01:54:13.903
+in any of the exercises. You need to print 5 rows of data at a time.
+
+
+542
+01:54:13.903 --> 01:54:16.903
+And then ask if users want to restart.
+
+
+543
+01:54:16.903 --> 01:54:21.903
+Okay, you've already seen this earlier, so I won't…
+
+
+544
+01:54:21.903 --> 01:54:26.903
+I don't need to, uh, get too long in the screenshot part.
+
+
+545
+01:54:26.903 --> 01:54:29.903
+Alright? So that's pretty much it.
+
+
+546
+01:54:29.903 --> 01:54:31.903
+And if you do have…
+
+
+547
+01:54:31.903 --> 01:54:33.903
+time, these…
+
+
+548
+01:54:33.903 --> 01:54:36.903
+Um, go to this page.
+
+
+549
+01:54:36.903 --> 01:54:43.903
+And provide a feedback.
+
+
+550
+01:54:43.903 --> 01:54:48.903
+Yeah, you're very welcome, Jenya, Sarah.
+
+
+551
+01:54:48.903 --> 01:54:52.903
+Not actually quite sure which one is the first name, sorry.
+
+
+552
+01:54:52.903 --> 01:54:55.903
+Maybe it's Jania, isn't it?
+
+
+553
+01:54:55.903 --> 01:54:56.903
+Anya, alright.
+
+
+554
+01:54:56.903 --> 01:54:58.903
+Yes, it's Hanya. Sounds like an age. Yes, it's Hania.
+
+
+555
+01:54:58.903 --> 01:55:00.903
+Okay, uh, apologize.
+
+
+556
+01:55:00.903 --> 01:55:04.903
+In Spanish, yes, the J sounds like H. Sometimes
+
+
+557
+01:55:04.903 --> 01:55:06.903
+Okay. Got it.
+
+
+558
+01:55:06.903 --> 01:55:07.903
+On the air.
+
+
+559
+01:55:07.903 --> 01:55:11.903
+Okay, okay.
+
+
+560
+01:55:11.903 --> 01:55:15.903
+Sounds really nice, by the way. Anya.
+
+
+561
+01:55:15.903 --> 01:55:22.903
+Yeah, thanks. Thanks for the session. Really, really productive and
+
+
+562
+01:55:22.903 --> 01:55:23.903
+Yeah, yeah, very welcome.
+
+
+563
+01:55:23.903 --> 01:55:24.903
+Yeah, well explained. Thank you very much. I appreciate it.
+
+
+564
+01:55:24.903 --> 01:55:29.903
+And again, if you have any issue at all with this project,
+
+
+565
+01:55:29.903 --> 01:55:33.903
+Um, I know we haven't really covered much on the project side itself,
+
+
+566
+01:55:33.903 --> 01:55:38.903
+Because as you can see, like, the fundamentals of Python, it's just a lot.
+
+
+567
+01:55:38.903 --> 01:55:40.903
+And I don't want to leave the…
+
+
+568
+01:55:40.903 --> 01:55:44.903
+people who are unfamiliar with Python behind.
+
+
+569
+01:55:44.903 --> 01:55:47.903
+So that's why I covered the fundamentals.
+
+
+570
+01:55:47.903 --> 01:55:50.903
+But if you need more help with your projects,
+
+
+571
+01:55:50.903 --> 01:55:58.903
+Please, by all means, um, either ask your questions in the community, or…
+
+
+572
+01:55:58.903 --> 01:56:04.903
+or set up a one-on-one session with me, if you need even further help.
+
+
+573
+01:56:04.903 --> 01:56:08.903
+I'll be very happy to… to…
+
+
+574
+01:56:08.903 --> 01:56:11.903
+Um, to provide you with more guidance in completing the project.
+
+
+575
+01:56:11.903 --> 01:56:13.903
+All right?
+
+
+576
+01:56:13.903 --> 01:56:20.903
+And Jay, you're the data engineering chapter. I'm sorry. You are the the mentor for this space
+
+
+577
+01:56:20.903 --> 01:56:21.903
+Yes.
+
+
+578
+01:56:21.903 --> 01:56:28.903
+Okay. And the the best way to get a hold of you is through the community page, correct? Or just post those are the project. Okay, well, thank you so much
+
+
+579
+01:56:28.903 --> 01:56:32.903
+Exactly. Committee page, or set up a one-on-one session.
+
+
+580
+01:56:32.903 --> 01:56:33.903
+Right. Okay.
+
+
+581
+01:56:33.903 --> 01:56:38.903
+And are you, I'm sorry, are you Chevron? Are you external?
+
+
+582
+01:56:38.903 --> 01:56:39.903
+So
+
+
+583
+01:56:39.903 --> 01:56:40.903
+Oh, I'm external one. Udacity with Udacity.
+
+
+584
+01:56:40.903 --> 01:56:48.903
+Okay, thank you. Yeah, just to know how to reach out. Apparently, you know Microsoft Teams won't do the trick then.
+
+
+585
+01:56:48.903 --> 01:56:49.903
+Yeah, thanks.
+
+
+586
+01:56:49.903 --> 01:56:52.903
+All right. Oh, I do actually have a Chevron email they gave me.
+
+
+587
+01:56:52.903 --> 01:56:54.903
+Uh, back then. Um…
+
+
+588
+01:56:54.903 --> 01:56:55.903
+Okay.
+
+
+589
+01:56:55.903 --> 01:57:02.903
+Yeah, but it's actually better to go through the one-on-one session application, now that we…
+
+
+590
+01:57:02.903 --> 01:57:07.903
+Now that we have this system up and running. You're actually the first cohort
+
+
+591
+01:57:07.903 --> 01:57:12.903
+that we have this, uh, this whole application for.
+
+
+592
+01:57:12.903 --> 01:57:14.903
+Great. Thank you.
+
+
+593
+01:57:14.903 --> 01:57:19.903
+Yeah, very welcome.
+
+
+594
+01:57:19.903 --> 01:57:22.903
+Okay, so thank you for your time.
+
+
+595
+01:57:22.903 --> 01:57:27.903
+And if you still have questions, feel free to ask them.
+
+
+596
+01:57:27.903 --> 01:57:28.903
+I don't mind going over time.
+
+
+597
+01:57:28.903 --> 01:57:31.903
+But if not, uh…
+
+
+598
+01:57:31.903 --> 01:57:37.903
+Also, feel free to drop off and see you in the office hour session.
+
+
+599
+01:57:37.903 --> 01:57:40.903
+All of the precaps. Thank you, June.
+
+
+600
+01:57:40.903 --> 01:57:41.903
+Thanks, Jane.
+
+
+601
+01:57:41.903 --> 01:58:08.903
+Yeah, you're very welcome.
+
+
+

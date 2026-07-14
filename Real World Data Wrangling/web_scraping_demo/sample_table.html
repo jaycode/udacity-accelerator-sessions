@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web Scraping Demo - Sample Table</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #f4f7fb;
+      color: #111827;
+    }
+
+    main {
+      width: min(90%, 42rem);
+      padding: 2.5rem;
+      background: #ffffff;
+      border-radius: 0.75rem;
+      box-shadow: 0 1rem 2.5rem rgba(17, 24, 39, 0.12);
+    }
+
+    h1 {
+      margin-top: 0;
+      color: #171c54;
+    }
+
+    p {
+      line-height: 1.5;
+    }
+
+    table {
+      width: 100%;
+      margin-top: 1.5rem;
+      border-collapse: collapse;
+    }
+
+    caption {
+      margin-bottom: 0.75rem;
+      font-size: 1.25rem;
+      font-weight: 700;
+      text-align: left;
+    }
+
+    th,
+    td {
+      padding: 0.8rem 1rem;
+      border: 1px solid #cbd5e1;
+      text-align: left;
+    }
+
+    th {
+      background: #171c54;
+      color: #ffffff;
+    }
+
+    tbody tr:nth-child(even) {
+      background: #eef6ff;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Web Scraping Demo</h1>
+    <p>This page contains the sample data used in the BeautifulSoup demonstration.</p>
+
+    <table id="people-table">
+      <caption>Sample Table</caption>
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Age</th>
+          <th scope="col">City</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Alice</td>
+          <td>30</td>
+          <td>New York</td>
+        </tr>
+        <tr>
+          <td>Bob</td>
+          <td>25</td>
+          <td>Los Angeles</td>
+        </tr>
+        <tr>
+          <td>Charlie</td>
+          <td>35</td>
+          <td>Chicago</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>
+

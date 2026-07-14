@@ -1,0 +1,349 @@
+WEBVTT
+
+1
+00:00:00.903 --> 00:00:03.903
+So, if you remember, metric is, like, uh...
+
+2
+00:00:03.903 --> 00:00:08.903
+Uh, if you... if you still remember the, um, the college,
+
+3
+00:00:08.903 --> 00:00:14.903
+mathematics. It's like this square box with, uh, several numbers in it, right-
+
+4
+00:00:14.903 --> 00:00:16.903
+So, it's basically just a list,
+
+5
+00:00:16.903 --> 00:00:19.903
+of multiple...
+
+6
+00:00:19.903 --> 00:00:21.903
+a list of lists.
+
+7
+00:00:21.903 --> 00:00:26.903
+Right- It has multiple lists inside a list.
+
+8
+00:00:26.903 --> 00:00:29.903
+Um, yes, you can...
+
+9
+00:00:29.903 --> 00:00:31.903
+use, um...
+
+10
+00:00:31.903 --> 00:00:34.903
+Lists item directly.
+
+11
+00:00:34.903 --> 00:00:39.903
+But it's gonna take a very long time to run your calculations.
+
+12
+00:00:39.903 --> 00:00:44.903
+There's, like, uh, Python runs on processor, and it's...
+
+13
+00:00:44.903 --> 00:00:49.903
+It's going to be run, like, one item at a time.
+
+14
+00:00:49.903 --> 00:00:51.903
+And Python itself is a slow programming language.
+
+15
+00:00:51.903 --> 00:00:54.903
+Uh, whereas with NumPy,
+
+16
+00:00:54.903 --> 00:00:57.903
+Basically, it wraps C++,
+
+17
+00:00:57.903 --> 00:01:03.903
+Uh, with Python, so you'll still write Python, you'll still read Pythons,
+
+18
+00:01:03.903 --> 00:01:08.903
+Uh, but, um, behind the scene, it's gonna run C++.
+
+19
+00:01:08.903 --> 00:01:11.903
+That's why it's really fast.
+
+20
+00:01:11.903 --> 00:01:17.903
+So here's an example. So if you import...
+
+21
+00:01:17.903 --> 00:01:21.903
+Okay, I'll get to...
+
+22
+00:01:21.903 --> 00:01:25.903
+one of the...
+
+23
+00:01:25.903 --> 00:01:29.903
+And I suggest that you do the same. Open up the...
+
+24
+00:01:29.903 --> 00:01:31.903
+Uh, and as...
+
+25
+00:01:31.903 --> 00:01:34.903
+course, and go to mini-projects.
+
+26
+00:01:34.903 --> 00:01:42.903
+And, um, start the workspace there.
+
+27
+00:01:42.903 --> 00:01:46.903
+Okay, so... and if you create a new Python tree...
+
+28
+00:01:46.903 --> 00:01:50.903
+Um... nosepoke-
+
+29
+00:01:50.903 --> 00:01:53.903
+And run this.
+
+30
+00:01:53.903 --> 00:02:00.903
+Okay, so what this code does is, uh, first it imports NumPy, and it uses NP as in Elias.
+
+31
+00:02:00.903 --> 00:02:07.903
+So whenever you call NP, it's gonna... whenever you write NP, it's gonna call NumPy.
+
+32
+00:02:07.903 --> 00:02:11.903
+And it creates a list
+
+33
+00:02:11.903 --> 00:02:15.903
+And, um, it's going to calculate the mean
+
+34
+00:02:15.903 --> 00:02:18.903
+Um, and set it to average time variable.
+
+35
+00:02:18.903 --> 00:02:23.903
+And it calculates the normalized times.
+
+36
+00:02:23.903 --> 00:02:24.903
+So, if you type in...
+
+37
+00:02:24.903 --> 00:02:30.903
+times... here's how it's gonna look. Array.
+
+38
+00:02:30.903 --> 00:02:35.903
+And average time...
+
+39
+00:02:35.903 --> 00:02:38.903
+It's the average of all the time.
+
+40
+00:02:38.903 --> 00:02:41.903
+And normalize times...
+
+41
+00:02:41.903 --> 00:02:42.903
+is it calculates...
+
+42
+00:02:42.903 --> 00:02:47.903
+Um, every single element with the average time.
+
+43
+00:02:47.903 --> 00:02:50.903
+This feature is called broadcasting.
+
+44
+00:02:50.903 --> 00:02:53.903
+So, you just need to type in...
+
+45
+00:02:53.903 --> 00:02:57.903
+Um, the... the operation wants.
+
+46
+00:02:57.903 --> 00:03:01.903
+Uh, NPMAX.
+
+47
+00:03:01.903 --> 00:03:05.903
+Okay, times divided by NPMAX.
+
+48
+00:03:05.903 --> 00:03:07.903
+So, times has multiple elements.
+
+49
+00:03:07.903 --> 00:03:10.903
+But NPMAX-
+
+50
+00:03:10.903 --> 00:03:12.903
+It has...
+
+51
+00:03:12.903 --> 00:03:15.903
+Only a single value, right-
+
+52
+00:03:15.903 --> 00:03:23.903
+So you might be wondering, why does a single, uh, why is it that multiple elements can be divided by a single value-
+
+53
+00:03:23.903 --> 00:03:27.903
+Well, uh, that's what broadcasting does, okay-
+
+54
+00:03:27.903 --> 00:03:47.903
+So it broadcasts this single value to every single element in this object.
+
+55
+00:03:47.903 --> 00:03:48.903
+Yes, it's... normal...
+
+56
+00:03:48.903 --> 00:03:58.903
+When you work with normalized times, what does it mean- Is it useful, for example, for machine learning, or which is the practical example in which you can apply because for example in the past I saw when I was working with
+
+57
+00:03:58.903 --> 00:04:01.903
+With models that, for example.
+
+58
+00:04:01.903 --> 00:04:17.903
+To speed up things, for example, for days of the week, I replace them with numbers, for example, you know- Because it is better to use numbers in Taggers, in this case
+
+59
+00:04:17.903 --> 00:04:19.903
+Instead of
+
+60
+00:04:19.903 --> 00:04:34.903
+For example, the complete word string like Thursday, Wednesday, Tuesday, you know- So that's why normalized times is which is the practical use of that is for models
+
+61
+00:04:34.903 --> 00:04:36.903
+Yeah, for machine learning,
+
+62
+00:04:36.903 --> 00:04:39.903
+Um, but actually, statistics in general,
+
+63
+00:04:39.903 --> 00:04:44.903
+um... when you have a range of data,
+
+64
+00:04:44.903 --> 00:04:46.903
+Um, you'd want to...
+
+65
+00:04:46.903 --> 00:04:51.903
+And if you have a single data out of, like, a range of data,
+
+66
+00:04:51.903 --> 00:04:57.903
+Uh, you'd want the calc... the calculator, so to speak, to be able to
+
+67
+00:04:57.903 --> 00:05:00.903
+measure the distance between
+
+68
+00:05:00.903 --> 00:05:05.903
+Uh, that data across all of the data points that you have.
+
+69
+00:05:05.903 --> 00:05:07.903
+Normalization, basically,
+
+70
+00:05:07.903 --> 00:05:12.903
+allows you to set your range to, um, to a certain
+
+71
+00:05:12.903 --> 00:05:16.903
+specific range. In this case, 0 to 1.
+
+72
+00:05:16.903 --> 00:05:20.903
+Right- So, if this divides...
+
+73
+00:05:20.903 --> 00:05:22.903
+All of the values here.
+
+74
+00:05:22.903 --> 00:05:26.903
+with its maximum value,
+
+75
+00:05:26.903 --> 00:05:27.903
+16- Yeah.
+
+76
+00:05:27.903 --> 00:05:31.903
+Therefore, like, the maximum value in this case would be 1.
+
+77
+00:05:31.903 --> 00:05:35.903
+Right- And since there's no negative value, um,
+
+78
+00:05:35.903 --> 00:05:40.903
+the range is always going to be 0 to 1.
+
+79
+00:05:40.903 --> 00:05:41.903
+Great.
+
+80
+00:05:41.903 --> 00:05:47.903
+It gives the... yeah, so it gives the calculator, like, a way to... and it's especially useful if you're using...
+
+81
+00:05:47.903 --> 00:05:51.903
+Um, this value, normalized time, with other
+
+82
+00:05:51.903 --> 00:05:54.903
+so-called features in machine learning.
+
+83
+00:05:54.903 --> 00:05:55.903
+Right-
+
+84
+00:05:55.903 --> 00:05:58.903
+Yeah, of course.
+
+85
+00:05:58.903 --> 00:05:59.903
+Thanks.
+
+86
+00:05:59.903 --> 00:06:03.903
+Okay. Awesome.
+
+87
+00:06:03.903 --> 00:06:04.000
+Let's see... uh...

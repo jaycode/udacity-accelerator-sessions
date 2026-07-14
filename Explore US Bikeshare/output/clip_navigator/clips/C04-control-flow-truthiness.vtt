@@ -1,0 +1,485 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.008
+Okay, the next thing, uh, we usually learn when we learn a new programming language is
+
+2
+00:00:00.008 --> 00:00:03.008
+control flow.
+
+3
+00:00:03.008 --> 00:00:07.008
+Okay- Control flow is basically, like, um...
+
+4
+00:00:07.008 --> 00:00:14.008
+How do you want the program to run- Like, if it has to make decisions-
+
+5
+00:00:14.008 --> 00:00:16.008
+Um,
+
+6
+00:00:16.008 --> 00:00:23.008
+what kind of decisions should it make, given the values that it reads-
+
+7
+00:00:23.008 --> 00:00:28.008
+So, for example, here, um, if we set city to Chicago,
+
+8
+00:00:28.008 --> 00:00:31.008
+And, um, if...
+
+9
+00:00:31.008 --> 00:00:37.008
+if the names, uh, Chicago is in city data,
+
+10
+00:00:37.008 --> 00:00:40.008
+and print this out. Otherwise...
+
+11
+00:00:40.008 --> 00:00:46.008
+the city not found. Or you can... you can also use what we call loop.
+
+12
+00:00:46.008 --> 00:00:52.008
+Um, let's just copy this code as usual.
+
+13
+00:00:52.008 --> 00:00:56.008
+Loop is basically, as its name suggests, um...
+
+14
+00:00:56.008 --> 00:01:00.008
+it loops through certain code.
+
+15
+00:01:00.008 --> 00:01:03.008
+So, I just want this code, actually.
+
+16
+00:01:03.008 --> 00:01:06.008
+Okay, so if I...
+
+17
+00:01:06.008 --> 00:01:09.008
+If I look through...
+
+18
+00:01:09.008 --> 00:01:13.008
+city data, for example.
+
+19
+00:01:13.008 --> 00:01:16.008
+It's going to loop through each of those
+
+20
+00:01:16.008 --> 00:01:22.008
+values, and in this case, since this is a dictionary, it's only going to loop
+
+21
+00:01:22.008 --> 00:01:26.008
+through the... the, um, the indexes.
+
+22
+00:01:26.008 --> 00:01:28.008
+So, the city here, for...
+
+23
+00:01:28.008 --> 00:01:30.008
+Um, and this is just like English.
+
+24
+00:01:30.008 --> 00:01:35.008
+You can consider it as saying, for each city,
+
+25
+00:01:35.008 --> 00:01:39.008
+In the city data dictionary,
+
+26
+00:01:39.008 --> 00:01:41.008
+Um, print out.
+
+27
+00:01:41.008 --> 00:01:43.008
+this statement, okay-
+
+28
+00:01:43.008 --> 00:01:51.008
+And it says, analyzing data for, followed by a city. And you see here, this is another variation of the
+
+29
+00:01:51.008 --> 00:01:55.008
+of how you can concatenate strings, right-
+
+30
+00:01:55.008 --> 00:01:56.008
+Earlier, I showed you, um,
+
+31
+00:01:56.008 --> 00:01:59.008
+using formats and using, um, the
+
+32
+00:01:59.008 --> 00:02:02.008
+F string. There's...
+
+33
+00:02:02.008 --> 00:02:06.008
+This is another way of doing that.
+
+34
+00:02:06.008 --> 00:02:10.008
+Okay.
+
+35
+00:02:10.008 --> 00:02:13.008
+All right, let's do another quiz.
+
+36
+00:02:13.008 --> 00:02:18.008
+So, um...
+
+37
+00:02:18.008 --> 00:02:21.008
+Okay, it's actually quite a hassle if I have to...
+
+38
+00:02:21.008 --> 00:02:33.008
+Stop sharing all the time. Let's see if I can do...
+
+39
+00:02:33.008 --> 00:02:37.000
+Oh, I can actually do this without having to stop sharing.
+
+40
+00:02:37.000 --> 00:02:37.008
+And, um...
+
+41
+00:02:37.008 --> 00:02:41.008
+Now, the drum roll, and let's see what it's gonna...
+
+42
+00:02:41.008 --> 00:02:43.008
+Uh, what it's gonna be.
+
+43
+00:02:43.008 --> 00:02:50.008
+Okay, so, um, this question... this quiz is actually... it has a trap in it.
+
+44
+00:02:50.008 --> 00:02:56.008
+Because, like, um, I see that some of you, um, selected, um, Chicago Selected.
+
+45
+00:02:56.008 --> 00:03:02.008
+Which kind of... kind of makes sense, because, like, a city was set to Chicago, so it... it should...
+
+46
+00:03:02.008 --> 00:03:05.008
+Um, it should, um, logically...
+
+47
+00:03:05.008 --> 00:03:08.008
+goes to here, right-
+
+48
+00:03:08.008 --> 00:03:10.008
+Um, if you're speaking in English.
+
+49
+00:03:10.008 --> 00:03:17.008
+But, uh, apparently, that's, like, the difference between coding and actually speaking.
+
+50
+00:03:17.008 --> 00:03:24.008
+Well, um, there is no difference if you're using... if you're... if you're chatting to an AI.
+
+51
+00:03:24.008 --> 00:03:26.008
+But in programming language, um...
+
+52
+00:03:26.008 --> 00:03:30.008
+In this case, since...
+
+53
+00:03:30.008 --> 00:03:32.008
+Since a code is read line by line,
+
+54
+00:03:32.008 --> 00:03:35.008
+So, it starts from reading this line.
+
+55
+00:03:35.008 --> 00:03:37.008
+And it's... it goes here.
+
+56
+00:03:37.008 --> 00:03:42.008
+if city, and this statement sounds new to you,
+
+57
+00:03:42.008 --> 00:03:44.008
+Um,
+
+58
+00:03:44.008 --> 00:03:50.008
+But what it says is really, if city equals to true.
+
+59
+00:03:50.008 --> 00:03:53.008
+Okay- And this is a quirk.
+
+60
+00:03:53.008 --> 00:03:55.008
+That applies, um...
+
+61
+00:03:55.008 --> 00:03:59.008
+Only in Python, and maybe a couple of other programming languages.
+
+62
+00:03:59.008 --> 00:04:03.008
+That's any variable that has a value
+
+63
+00:04:03.008 --> 00:04:07.008
+It always... it always equates to true.
+
+64
+00:04:07.008 --> 00:04:10.008
+Um, so if I do...
+
+65
+00:04:10.008 --> 00:04:14.008
+Something like...
+
+66
+00:04:14.008 --> 00:04:17.008
+Yeah, yeah, even in this code, right-
+
+67
+00:04:17.008 --> 00:04:21.008
+So, we can... we can say, like, A equals to 3.
+
+68
+00:04:21.008 --> 00:04:23.008
+Okay- And...
+
+69
+00:04:23.008 --> 00:04:25.008
+If we have prints,
+
+70
+00:04:25.008 --> 00:04:31.008
+A equals true-
+
+71
+00:04:31.008 --> 00:04:33.008
+Okay.
+
+72
+00:04:33.008 --> 00:04:36.008
+So, in this case, since this is...
+
+73
+00:04:36.008 --> 00:04:38.008
+Um, this is a...
+
+74
+00:04:38.008 --> 00:04:42.008
+Um, a number,
+
+75
+00:04:42.008 --> 00:04:45.008
+It doesn't equate to true, because, like, true...
+
+76
+00:04:45.008 --> 00:04:49.008
+It can also be converted into the number 1.
+
+77
+00:04:49.008 --> 00:04:53.008
+But if I... if I change this to this...
+
+78
+00:04:53.008 --> 00:04:56.008
+to string.
+
+79
+00:04:56.008 --> 00:05:00.008
+It's... and I remove this part.
+
+80
+00:05:00.008 --> 00:05:06.008
+Um, wait.
+
+81
+00:05:06.008 --> 00:05:15.008
+Um... wait, how do I do this-
+
+82
+00:05:15.008 --> 00:05:17.008
+If A...
+
+83
+00:05:17.008 --> 00:05:20.008
+Then print...
+
+84
+00:05:20.008 --> 00:05:22.008
+Hello.
+
+85
+00:05:22.008 --> 00:05:24.008
+Then, um, this...
+
+86
+00:05:24.008 --> 00:05:27.008
+also equates to...
+
+87
+00:05:27.008 --> 00:05:29.008
+True. Okay-
+
+88
+00:05:29.008 --> 00:05:31.008
+So, A,
+
+89
+00:05:31.008 --> 00:05:34.008
+Whenever A has a value,
+
+90
+00:05:34.008 --> 00:05:39.008
+It's going to, um, to be treated as true.
+
+91
+00:05:39.008 --> 00:05:46.008
+Even... even if when you print it out,
+
+92
+00:05:46.008 --> 00:05:50.008
+Even if we... when you print it out,
+
+93
+00:05:50.008 --> 00:05:53.008
+It doesn't want to... it... it...
+
+94
+00:05:53.008 --> 00:05:57.008
+it doesn't want to, um, treat it as the actual true value.
+
+95
+00:05:57.008 --> 00:06:02.008
+And this concept in Python is called the truthfulness of the...
+
+96
+00:06:02.008 --> 00:06:04.008
+Um, of a variable.
+
+97
+00:06:04.008 --> 00:06:10.008
+Okay- So, a value can be called trueT if it has
+
+98
+00:06:10.008 --> 00:06:14.008
+if it has a value that is not zero.
+
+99
+00:06:14.008 --> 00:06:19.008
+So if I set this to... let's just set this to 3, for example.
+
+100
+00:06:19.008 --> 00:06:24.008
+It will still print zero, right-
+
+101
+00:06:24.008 --> 00:06:28.008
+And let's do something like this.
+
+102
+00:06:28.008 --> 00:06:31.008
+Not true. Okay.
+
+103
+00:06:31.008 --> 00:06:33.008
+But if I set this to zero...
+
+104
+00:06:33.008 --> 00:06:36.008
+it goes to not true, because, like, zero...
+
+105
+00:06:36.008 --> 00:06:40.008
+It's the same as, um, not true.
+
+106
+00:06:40.008 --> 00:06:44.008
+the truthfulness is, uh...
+
+107
+00:06:44.008 --> 00:06:48.008
+is, uh, is false in this case.
+
+108
+00:06:48.008 --> 00:06:52.008
+Even minus...
+
+109
+00:06:52.008 --> 00:06:57.008
+even minus 1 is also considered truthful.
+
+110
+00:06:57.008 --> 00:06:59.008
+But when you do this...
+
+111
+00:06:59.008 --> 00:07:02.008
+None- None is...
+
+112
+00:07:02.008 --> 00:07:08.008
+um, is a placeholder value for nothing. It's the nothingness.
+
+113
+00:07:08.008 --> 00:07:11.008
+It's not true.
+
+114
+00:07:11.008 --> 00:07:14.008
+So, the answer to that quiz...
+
+115
+00:07:14.008 --> 00:07:16.008
+is... Diddy selected.
+
+116
+00:07:16.008 --> 00:07:19.008
+Because it goes to the dis...
+
+117
+00:07:19.008 --> 00:07:21.008
+to this line right here.
+
+118
+00:07:21.008 --> 00:07:23.008
+If I copy this...
+
+119
+00:07:23.008 --> 00:07:27.008
+paste it here.
+
+120
+00:07:27.008 --> 00:07:32.008
+It's gonna check that it has a value, the variable city has a value, so it's gonna print out
+
+121
+00:07:32.008 --> 00:07:34.000
+City selected. Okay.

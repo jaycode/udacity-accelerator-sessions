@@ -1,0 +1,445 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.008
+what we've covered so far.
+
+2
+00:00:00.008 --> 00:00:06.008
+All right. So, let's move on to functions.
+
+3
+00:00:06.008 --> 00:00:10.008
+So, what are, um, what are functions- Uh, functions allow you to
+
+4
+00:00:10.008 --> 00:00:15.008
+group a bunch of code together, so you may reuse it in your project.
+
+5
+00:00:15.008 --> 00:00:21.008
+And, uh, this is what makes it so powerful.
+
+6
+00:00:21.008 --> 00:00:26.008
+Um, let's actually, um, look at a real code.
+
+7
+00:00:26.008 --> 00:00:28.008
+something that I've, um...
+
+8
+00:00:28.008 --> 00:00:43.008
+that, uh, I've been working on.
+
+9
+00:00:43.008 --> 00:00:46.008
+All right. So, um...
+
+10
+00:00:46.008 --> 00:00:51.008
+Let's see, uh, any of the Python code.
+
+11
+00:00:51.008 --> 00:00:56.008
+of this project that I have. It has to do with, uh...
+
+12
+00:00:56.008 --> 00:01:03.008
+I mean, it's extracting fundamental data from the stock market.
+
+13
+00:01:03.008 --> 00:01:05.008
+Okay, so you see here-
+
+14
+00:01:05.008 --> 00:01:11.008
+Any of the code... and this is an actual production code.
+
+15
+00:01:11.008 --> 00:01:14.008
+Um, uh...
+
+16
+00:01:14.008 --> 00:01:16.008
+If you see any of...
+
+17
+00:01:16.008 --> 00:01:20.008
+an actual Python applications,
+
+18
+00:01:20.008 --> 00:01:25.008
+Uh, you'll see that it normally consists of
+
+19
+00:01:25.008 --> 00:01:31.008
+real, like, many functions, right- We like to divide
+
+20
+00:01:31.008 --> 00:01:35.008
+Um, our code into functions, because that makes it...
+
+21
+00:01:35.008 --> 00:01:39.008
+Uh, that makes our code easily manageable.
+
+22
+00:01:39.008 --> 00:01:47.008
+Because it has... it has those distinctions. It makes our code modular, like, you can copy and paste
+
+23
+00:01:47.008 --> 00:01:57.008
+some code into other parts when needed, or you don't even need to do that. You can just import the code and reuse it on other parts.
+
+24
+00:01:57.008 --> 00:02:00.008
+And it also makes your code more easily readable.
+
+25
+00:02:00.008 --> 00:02:05.008
+Like you see here, I can create a code.
+
+26
+00:02:05.008 --> 00:02:09.008
+And then I... I'm gonna, uh... and then I added, um...
+
+27
+00:02:09.008 --> 00:02:14.008
+some information about that code, and this part is called a code command.
+
+28
+00:02:14.008 --> 00:02:19.008
+Um, it doesn't run anything, but it...
+
+29
+00:02:19.008 --> 00:02:21.008
+tells us, as humans,
+
+30
+00:02:21.008 --> 00:02:25.008
+well, an AI- Like, what's this code-
+
+31
+00:02:25.008 --> 00:02:29.008
+is going to do, and what it's gonna return.
+
+32
+00:02:29.008 --> 00:02:32.008
+Right- Okay.
+
+33
+00:02:32.008 --> 00:02:40.008
+So it's very useful, and you're gonna see it very often when you're working with Python for real.
+
+34
+00:02:40.008 --> 00:02:45.008
+Okay, so function has a function definition part. It has
+
+35
+00:02:45.008 --> 00:02:51.008
+positional arguments and keyword arguments, in this case, it has two positional arguments,
+
+36
+00:02:51.008 --> 00:02:56.008
+And one keyword argument.
+
+37
+00:02:56.008 --> 00:03:00.008
+It also has a good function, also have duck strings.
+
+38
+00:03:00.008 --> 00:03:08.008
+Basically, it's a documentation, and you saw that earlier, too, in my actual production code, right-
+
+39
+00:03:08.008 --> 00:03:11.008
+And then the function code itself-
+
+40
+00:03:11.008 --> 00:03:13.008
+And then this is how...
+
+41
+00:03:13.008 --> 00:03:18.008
+you can call a function.
+
+42
+00:03:18.008 --> 00:03:22.008
+So notice here, the function is called filterByMonth.
+
+43
+00:03:22.008 --> 00:03:26.008
+And this is how you call that function.
+
+44
+00:03:26.008 --> 00:03:32.008
+Filter by month, and you're passing in data and months, and you might be asking, how about show summary-
+
+45
+00:03:32.008 --> 00:03:36.008
+Well, since this is a keyword argument,
+
+46
+00:03:36.008 --> 00:03:39.008
+If the user doesn't pass anything,
+
+47
+00:03:39.008 --> 00:03:43.008
+then it's going to be, um, treated.
+
+48
+00:03:43.008 --> 00:03:47.008
+a default value is going to be set for it. In this case.
+
+49
+00:03:47.008 --> 00:03:50.008
+of false. Okay.
+
+50
+00:03:50.008 --> 00:03:54.008
+So...
+
+51
+00:03:54.008 --> 00:03:56.008
+I hope I can run this code.
+
+52
+00:03:56.008 --> 00:03:59.008
+Let's see...
+
+53
+00:03:59.008 --> 00:04:01.008
+Yeah. Okay.
+
+54
+00:04:01.008 --> 00:04:11.008
+And, um, I'm gonna need to...
+
+55
+00:04:11.008 --> 00:04:16.008
+Okay, this code, um, cannot run, because, like, it expects...
+
+56
+00:04:16.008 --> 00:04:18.008
+Um, a pandas...
+
+57
+00:04:18.008 --> 00:04:22.008
+data frame, which is something that we're gonna learn later on.
+
+58
+00:04:22.008 --> 00:04:39.008
+But, um, let's... let's just use a simpler function.
+
+59
+00:04:39.008 --> 00:04:44.008
+Let's say we have...
+
+60
+00:04:44.008 --> 00:04:52.008
+Data...
+
+61
+00:04:52.008 --> 00:04:57.008
+And we have a pro...
+
+62
+00:04:57.008 --> 00:05:05.008
+1, 2, 3...
+
+63
+00:05:05.008 --> 00:05:08.008
+May...
+
+64
+00:05:08.008 --> 00:05:11.008
+4, 5, 6, okay-
+
+65
+00:05:11.008 --> 00:05:13.008
+Very simple.
+
+66
+00:05:13.008 --> 00:05:16.008
+And filtered data, is this data...
+
+67
+00:05:16.008 --> 00:05:20.008
+And we get the value of months.
+
+68
+00:05:20.008 --> 00:05:23.008
+Let's just remove the keyword argument for now.
+
+69
+00:05:23.008 --> 00:05:30.008
+And we just return filtered data.
+
+70
+00:05:30.008 --> 00:05:34.008
+Okay.
+
+71
+00:05:34.008 --> 00:05:36.008
+And I can just remove this.
+
+72
+00:05:36.008 --> 00:05:43.008
+And I could change this to crit, for example, or even not without, uh, or even removing
+
+73
+00:05:43.008 --> 00:05:46.008
+this part here.
+
+74
+00:05:46.008 --> 00:05:50.008
+So, what it does is that it calls this function,
+
+75
+00:05:50.008 --> 00:05:52.008
+And, um...
+
+76
+00:05:52.008 --> 00:05:57.008
+it's gonna get the value of data, and you can even pass it
+
+77
+00:05:57.008 --> 00:06:01.008
+Um, if I... if I replace it with D, for example.
+
+78
+00:06:01.008 --> 00:06:06.008
+it's still gonna work, because, like, um, this is gonna be, like, the alias of the...
+
+79
+00:06:06.008 --> 00:06:10.008
+The variable that you passed into the... into this function.
+
+80
+00:06:10.008 --> 00:06:15.008
+Okay.
+
+81
+00:06:15.008 --> 00:06:17.008
+the outputs...
+
+82
+00:06:17.008 --> 00:06:22.008
+Um, the output of a function is then passed into
+
+83
+00:06:22.008 --> 00:06:25.008
+Um, into the color.
+
+84
+00:06:25.008 --> 00:06:30.008
+And this is... this is the part where it passes the... it passes the...
+
+85
+00:06:30.008 --> 00:06:41.008
+the value, and we print them. We print that value out.
+
+86
+00:06:41.008 --> 00:06:46.008
+Okay. So, next, um, regarding variable scopes...
+
+87
+00:06:46.008 --> 00:06:50.008
+variables defined in a function,
+
+88
+00:06:50.008 --> 00:06:53.008
+lives only within that function.
+
+89
+00:06:53.008 --> 00:07:01.008
+So, for example, if we have...
+
+90
+00:07:01.008 --> 00:07:06.008
+You have this function, some function word hello,
+
+91
+00:07:06.008 --> 00:07:08.008
+Hello is only defined within
+
+92
+00:07:08.008 --> 00:07:10.008
+Um, within this function.
+
+93
+00:07:10.008 --> 00:07:18.008
+So, printing it is going to return an error.
+
+94
+00:07:18.008 --> 00:07:20.008
+We define a word.
+
+95
+00:07:20.008 --> 00:07:22.008
+Uh, if we define a variable,
+
+96
+00:07:22.008 --> 00:07:26.008
+Outside of that function,
+
+97
+00:07:26.008 --> 00:07:28.008
+It's gonna show it. Okay-
+
+98
+00:07:28.008 --> 00:07:43.008
+Make sense-
+
+99
+00:07:43.008 --> 00:07:46.008
+Okay, so, um, you can...
+
+100
+00:07:46.008 --> 00:07:53.008
+you can, um, run the print statement inside of that function, because this means, like, the scope
+
+101
+00:07:53.008 --> 00:07:55.008
+is the same, so the word here...
+
+102
+00:07:55.008 --> 00:07:58.008
+it works, um...
+
+103
+00:07:58.008 --> 00:08:02.008
+it... it works inside...
+
+104
+00:08:02.008 --> 00:08:04.008
+that function.
+
+105
+00:08:04.008 --> 00:08:11.008
+So, when you do this...
+
+106
+00:08:11.008 --> 00:08:17.008
+And I call that function,
+
+107
+00:08:17.008 --> 00:08:19.008
+That is gonna... that's gonna run.
+
+108
+00:08:19.008 --> 00:08:22.008
+Okay- Alright.
+
+109
+00:08:22.008 --> 00:08:28.008
+But that's all you need to know about variable scope. It's just like when you write your code,
+
+110
+00:08:28.008 --> 00:08:32.008
+Um, be careful about, like, how...
+
+111
+00:08:32.008 --> 00:08:35.000
+Um, the variables are scoped.

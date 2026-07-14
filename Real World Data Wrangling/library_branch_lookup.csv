@@ -1,0 +1,8 @@
+branch_id,branch_name,branch_city,state,region,opened_year,square_feet,annual_visits,wifi_available
+B101,Central Library,New York,NY,Northeast,1911,80000,"1,250,000",TRUE
+B102,Westside Branch,Los Angeles,CA,West,1954,45000,"850,000",TRUE
+B103,Lakeview Branch,Chicago,IL,Midwest,1972,38000,"620,000",TRUE
+B104,Bayou Branch,Houston,TX,South,1985,32000,"540,000",FALSE
+B105,Desert Ridge Branch,Phoenix,AZ,West,2001,28000,"410,000",TRUE
+B106,Liberty Branch,Philadelphia,PA,Northeast,1963,36000,"575,000",TRUE
+B107,Riverwalk Branch,San Antonio,TX,South,1995,30000,"390,000",FALSE

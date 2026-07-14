@@ -1,0 +1,585 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.903
+Let's see... uh...
+
+2
+00:00:00.903 --> 00:00:03.903
+What is Pandas-
+
+3
+00:00:03.903 --> 00:00:08.903
+Um, Pandas, with all lowercase and parallel mode, um, is a Python module.
+
+4
+00:00:08.903 --> 00:00:13.903
+enables us to make an abstraction of a table called DataFrame.
+
+5
+00:00:13.903 --> 00:00:17.903
+Okay, here's how it differs with NumPy.
+
+6
+00:00:17.903 --> 00:00:20.903
+NumPy allows you to create a metrics,
+
+7
+00:00:20.903 --> 00:00:23.903
+of any dimension.
+
+8
+00:00:23.903 --> 00:00:29.903
+So, if you still remember, um, those, um, again, college mathematics, um, when you have, like,
+
+9
+00:00:29.903 --> 00:00:35.903
+a flat box with only single values. It's called a factor, right- When it has...
+
+10
+00:00:35.903 --> 00:00:44.903
+Um, two dimensions, it called a matrix. And you can also have metrics with 3 dimensions, four dimensions, and n dimensions.
+
+11
+00:00:44.903 --> 00:00:55.903
+Right- For data analyzes, you usually work with, uh, with two dimensions, and that's where Pandas can be.
+
+12
+00:00:55.903 --> 00:01:01.903
+Very useful. It creates the abstraction for those.
+
+13
+00:01:01.903 --> 00:01:05.903
+A column is called a series in Pandas, and a table...
+
+14
+00:01:05.903 --> 00:01:07.903
+Uh, which has two dimensions.
+
+15
+00:01:07.903 --> 00:01:10.903
+It's called a data frame.
+
+16
+00:01:10.903 --> 00:01:14.903
+And you can programmatically manipulate these objects.
+
+17
+00:01:14.903 --> 00:01:20.903
+So, um, so you can, for example, import a file from Excel spreadsheets.
+
+18
+00:01:20.903 --> 00:01:25.903
+You can manipulate the values directly from Python.
+
+19
+00:01:25.903 --> 00:01:31.903
+Um, and then... and then just, uh, I don't know, save it to another Excel file or anything.
+
+20
+00:01:31.903 --> 00:01:35.903
+Right- The typical pipeline is similar to that.
+
+21
+00:01:35.903 --> 00:01:39.903
+If you have multiple files, for example,
+
+22
+00:01:39.903 --> 00:01:44.903
+We can load each of them, manipulate them, merge them into a single data frame.
+
+23
+00:01:44.903 --> 00:01:46.903
+and analyze the merged data frame.
+
+24
+00:01:46.903 --> 00:01:51.903
+And maybe save the emergency data frame into another file.
+
+25
+00:01:51.903 --> 00:01:56.903
+And there's a pandas code example.
+
+26
+00:01:56.903 --> 00:02:01.903
+Um, but this example is not gonna run, because the data.csv...
+
+27
+00:02:01.903 --> 00:02:03.903
+doesn't exist.
+
+28
+00:02:03.903 --> 00:02:09.903
+Um, but let's... let's do this hypothetically. Hypothetically, if you have
+
+29
+00:02:09.903 --> 00:02:13.903
+a data frame.
+
+30
+00:02:13.903 --> 00:02:16.903
+that has, um, an H column,
+
+31
+00:02:16.903 --> 00:02:18.903
+and a status column.
+
+32
+00:02:18.903 --> 00:02:24.903
+Right- If you have, like, a table, let's just say a table,
+
+33
+00:02:24.903 --> 00:02:26.903
+You have H, you have status,
+
+34
+00:02:26.903 --> 00:02:31.903
+And then, um, you store it in a CSV file, comma-separated value. You can read
+
+35
+00:02:31.903 --> 00:02:34.903
+read that file in Pandas.
+
+36
+00:02:34.903 --> 00:02:35.903
+And you can... you can get...
+
+37
+00:02:35.903 --> 00:02:39.903
+a column, or in this case, a series,
+
+38
+00:02:39.903 --> 00:02:42.903
+Um, with this selector.
+
+39
+00:02:42.903 --> 00:02:44.903
+So, that is the...
+
+40
+00:02:44.903 --> 00:02:49.903
+the variable name, or in this case, the object name.
+
+41
+00:02:49.903 --> 00:02:52.903
+And then followed by square brackets.
+
+42
+00:02:52.903 --> 00:02:56.903
+And then the... inside that square bracket, it's the column name.
+
+43
+00:02:56.903 --> 00:02:58.903
+Or you can... you can do... mhm.
+
+44
+00:02:58.903 --> 00:02:59.903
+Right.
+
+45
+00:02:59.903 --> 00:03:07.903
+One quick question, pandas assumes that the first row are the headers
+
+46
+00:03:07.903 --> 00:03:10.903
+Um, well...
+
+47
+00:03:10.903 --> 00:03:12.903
+No, because, uh...
+
+48
+00:03:12.903 --> 00:03:16.903
+Well, you... it has a...
+
+49
+00:03:16.903 --> 00:03:20.903
+Um, it has a parameter to allow you to set that.
+
+50
+00:03:20.903 --> 00:03:21.903
+An option
+
+51
+00:03:21.903 --> 00:03:24.903
+By default, it does that, but you can change that.
+
+52
+00:03:24.903 --> 00:03:27.903
+And if you want to learn more about that, um...
+
+53
+00:03:27.903 --> 00:03:30.903
+You can... well, the best way is really to...
+
+54
+00:03:30.903 --> 00:03:35.903
+to, uh, to use AI agents, something like this.
+
+55
+00:03:35.903 --> 00:03:39.903
+Uh...
+
+56
+00:03:39.903 --> 00:03:42.903
+how to load...
+
+57
+00:03:42.903 --> 00:03:46.903
+CSV file in Pandas.
+
+58
+00:03:46.903 --> 00:03:49.903
+Uh, with...
+
+59
+00:03:49.903 --> 00:03:50.903
+Specific. Huh.
+
+60
+00:03:50.903 --> 00:03:53.903
+Yeah.
+
+61
+00:03:53.903 --> 00:03:57.903
+Uh, number, like this.
+
+62
+00:03:57.903 --> 00:04:01.903
+And, um, yeah, so you can, uh...
+
+63
+00:04:01.903 --> 00:04:05.903
+you see here, it sets the fourth...
+
+64
+00:04:05.903 --> 00:04:08.903
+fourth row as a header.
+
+65
+00:04:08.903 --> 00:04:10.903
+Right-
+
+66
+00:04:10.903 --> 00:04:12.903
+Okay.
+
+67
+00:04:12.903 --> 00:04:22.903
+Okay, because it says, like, for example, it was using the H there, and I saw that, for example, for example, in PySpark, you can say
+
+68
+00:04:22.903 --> 00:04:26.903
+hither true, for example, and it will
+
+69
+00:04:26.903 --> 00:04:32.903
+assume that the first row will have at least of heaters
+
+70
+00:04:32.903 --> 00:04:45.903
+In which you can... yeah, it will say H in one of those columns, of those commas separated values that are in the first row, for example
+
+71
+00:04:45.903 --> 00:04:47.903
+Yeah, um, uh...
+
+72
+00:04:47.903 --> 00:04:52.903
+There are small variants, but I don't think...
+
+73
+00:04:52.903 --> 00:04:54.903
+Um...
+
+74
+00:04:54.903 --> 00:04:58.903
+Yeah, uh, at least in... in...
+
+75
+00:04:58.903 --> 00:05:05.903
+Pandas, pandas, in this variant of Pandas, you can set the...
+
+76
+00:05:05.903 --> 00:05:08.903
+the number
+
+77
+00:05:08.903 --> 00:05:13.903
+off-road instead of true or false.
+
+78
+00:05:13.903 --> 00:05:18.903
+Okay, great. Good. Thanks.
+
+79
+00:05:18.903 --> 00:05:23.903
+In olden times, we actually have to go through the documentation,
+
+80
+00:05:23.903 --> 00:05:31.903
+And the API references to find this. So it's pretty nice that you have all this.
+
+81
+00:05:31.903 --> 00:05:32.903
+Yeah.
+
+82
+00:05:32.903 --> 00:05:39.903
+It's even nicer that you can let it to work for you.
+
+83
+00:05:39.903 --> 00:05:43.903
+Right. And by the way, a very unrelated, but I just read on news that...
+
+84
+00:05:43.903 --> 00:05:51.903
+let's say that 80% of cloud code was written by AI agent.
+
+85
+00:05:51.903 --> 00:05:55.903
+Okay, all right, anyway...
+
+86
+00:05:55.903 --> 00:05:57.903
+Um...
+
+87
+00:05:57.903 --> 00:06:01.903
+Yeah, um, you can... you can perform...
+
+88
+00:06:01.903 --> 00:06:04.903
+um, complex selections.
+
+89
+00:06:04.903 --> 00:06:07.903
+with, uh, with Pandas, too.
+
+90
+00:06:07.903 --> 00:06:11.903
+Like, in this case, if you want to...
+
+91
+00:06:11.903 --> 00:06:17.903
+choose... if you want to get rows where the age is lower than 11,
+
+92
+00:06:17.903 --> 00:06:19.903
+Um, you can... you can type it like so.
+
+93
+00:06:19.903 --> 00:06:22.903
+Okay- And create a selection.
+
+94
+00:06:22.903 --> 00:06:27.903
+And so, basically what it does here is that, uh,
+
+95
+00:06:27.903 --> 00:06:32.903
+it gives you the indexes, and you can use those indexes
+
+96
+00:06:32.903 --> 00:06:35.903
+A filter
+
+97
+00:06:35.903 --> 00:06:36.903
+We lost you.
+
+98
+00:06:36.903 --> 00:06:37.903
+Um,
+
+99
+00:06:37.903 --> 00:06:40.903
+Okay, it might be better to have an example of this.
+
+100
+00:06:40.903 --> 00:06:43.903
+Um, let's see what we can use.
+
+101
+00:06:43.903 --> 00:06:47.903
+It's actually good that we have...
+
+102
+00:06:47.903 --> 00:06:49.903
+We have used this notebook.
+
+103
+00:06:49.903 --> 00:06:51.903
+Because this notebook...
+
+104
+00:06:51.903 --> 00:06:55.903
+It has...
+
+105
+00:06:55.903 --> 00:07:00.903
+Um, it has these datasets that we can use directly.
+
+106
+00:07:00.903 --> 00:07:06.903
+Um, I'll just use a code that's already written.
+
+107
+00:07:06.903 --> 00:07:08.903
+So if you... if you do this...
+
+108
+00:07:08.903 --> 00:07:12.903
+So, notice here that, um, we got the database.
+
+109
+00:07:12.903 --> 00:07:15.903
+Um, well, the data sets.
+
+110
+00:07:15.903 --> 00:07:18.903
+And we can do this.
+
+111
+00:07:18.903 --> 00:07:22.903
+Right- Or rather, let's just use open, because it's easier.
+
+112
+00:07:22.903 --> 00:07:25.903
+Use numeric values.
+
+113
+00:07:25.903 --> 00:07:29.903
+Um, but we can also do...
+
+114
+00:07:29.903 --> 00:07:32.903
+What if we want to get the open price of...
+
+115
+00:07:32.903 --> 00:07:36.903
+higher than... 100.
+
+116
+00:07:36.903 --> 00:07:39.903
+It gives you, um...
+
+117
+00:07:39.903 --> 00:07:41.903
+the indexes.
+
+118
+00:07:41.903 --> 00:07:44.903
+And the... the...
+
+119
+00:07:44.903 --> 00:07:47.903
+the mask, so-called a mask.
+
+120
+00:07:47.903 --> 00:07:49.903
+Um, for each of those indexes.
+
+121
+00:07:49.903 --> 00:07:53.903
+Right- Then you can use that mask.
+
+122
+00:07:53.903 --> 00:07:56.903
+Like this.
+
+123
+00:07:56.903 --> 00:07:59.903
+It's gonna give you only the data where...
+
+124
+00:07:59.903 --> 00:08:01.903
+Um, the values are larger than...
+
+125
+00:08:01.903 --> 00:08:05.903
+the value open is larger than 100.
+
+126
+00:08:05.903 --> 00:08:12.903
+In this case. Make sense-
+
+127
+00:08:12.903 --> 00:08:13.903
+Yep.
+
+128
+00:08:13.903 --> 00:08:16.903
+Right.
+
+129
+00:08:16.903 --> 00:08:19.903
+And you can also set, um...
+
+130
+00:08:19.903 --> 00:08:23.903
+the value of other columns.
+
+131
+00:08:23.903 --> 00:08:29.903
+Uh, and combine that with a selection. This is something that you often want to do, right-
+
+132
+00:08:29.903 --> 00:08:38.903
+Let's say if you want to set, um, all of the rows where the age is lower than 11, set the status to children.
+
+133
+00:08:38.903 --> 00:08:40.903
+And what can we do here-
+
+134
+00:08:40.903 --> 00:08:44.903
+Um, so we can...
+
+135
+00:08:44.903 --> 00:08:46.903
+can, for example, create another
+
+136
+00:08:46.903 --> 00:08:54.903
+column.
+
+137
+00:08:54.903 --> 00:08:58.903
+like this.
+
+138
+00:08:58.903 --> 00:09:02.903
+This is so wrong.
+
+139
+00:09:02.903 --> 00:09:06.903
+But, uh, for the... for the sake of...
+
+140
+00:09:06.903 --> 00:09:08.903
+Example, let's just do this.
+
+141
+00:09:08.903 --> 00:09:20.903
+It's, like, price larger than 100 is not always expensive.
+
+142
+00:09:20.903 --> 00:09:24.903
+Something like this, and if you print out PDF,
+
+143
+00:09:24.903 --> 00:09:28.903
+It's going to go through for all of the data where
+
+144
+00:09:28.903 --> 00:09:32.903
+Where the open price is larger than 100.
+
+145
+00:09:32.903 --> 00:09:36.903
+Okay-
+
+146
+00:09:36.903 --> 00:09:43.000
+Okay. There's no need to memorize these pandas functions, uh, you already know this. Simply search, how do I...

@@ -1,0 +1,12 @@
+00:06:00	Fritz:	I think Chevron employees are not allowed to install zoom app in our laptops.
+00:11:50	udol:	We have people on teams but they are not allowed to join the meeting.
+01:08:57	Jay Teguh:	funcs = []for x in [1, 2, 3]:    funcs.append(lambda: x)print([f() for f in funcs])
+01:45:38	Jay Teguh:	rel_vol = all_stocks.std() / all_stocks.mean()print(rel_vol.idxmax())
+02:00:27	Jay Teguh:	https://airtable.com/shr7WGplyaZIWq8pE
+02:00:37	udol:	we need the presentation
+02:00:55	wqco:	where to get recording and the ppt?
+02:01:21	udol:	We also need a step by step guide to make doing the project educative and easy.
+02:02:50	udol:	You don't have any past live sessions for June 2026Check other months if you don't see what you're looking for.
+02:03:17	udol:	when is this session going to be posted in the past sessions
+02:03:35	udol:	Thanks
+02:04:53	zbmx:	Thanks for the session today!

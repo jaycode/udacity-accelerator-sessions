@@ -1,0 +1,381 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.008
+for items, uh, four types, but actually, um, complex data types, there are way more than that. There's an infinite number, because you can actually create your own data.
+
+2
+00:00:00.008 --> 00:00:02.008
+data structures in Python.
+
+3
+00:00:02.008 --> 00:00:11.008
+Um, by creating... by creating classes and... but we're gonna... we're gonna learn all of that later on in the second part of this... of this course.
+
+4
+00:00:11.008 --> 00:00:14.008
+For now, let's learn about these four...
+
+5
+00:00:14.008 --> 00:00:17.008
+um, data structure types.
+
+6
+00:00:17.008 --> 00:00:21.008
+List, tuple, dictionary, and set.
+
+7
+00:00:21.008 --> 00:00:25.008
+List is what we call an array of values.
+
+8
+00:00:25.008 --> 00:00:31.008
+Okay, so in this case, for example, if it sets, um, cities as, um, this...
+
+9
+00:00:31.008 --> 00:00:33.008
+with these three values.
+
+10
+00:00:33.008 --> 00:00:37.008
+So, um, what's gonna happen here is that
+
+11
+00:00:37.008 --> 00:00:41.008
+the CDs variable is gonna have 3 strings.
+
+12
+00:00:41.008 --> 00:00:44.008
+Chicago, New York City, and Washington.
+
+13
+00:00:44.008 --> 00:00:48.008
+And we can also append new values,
+
+14
+00:00:48.008 --> 00:00:50.008
+Um, add new values into it.
+
+15
+00:00:50.008 --> 00:00:52.008
+And also to remove
+
+16
+00:00:52.008 --> 00:00:57.008
+existing values from the list.
+
+17
+00:00:57.008 --> 00:00:59.008
+So, if we copy a code, and...
+
+18
+00:00:59.008 --> 00:01:01.008
+Here...
+
+19
+00:01:01.008 --> 00:01:05.008
+What do you think the cities is gonna be like-
+
+20
+00:01:05.008 --> 00:01:08.008
+Um, there's gonna be...
+
+21
+00:01:08.008 --> 00:01:21.008
+three values, and it's gonna replace New York City with Los Angeles, as you can see here.
+
+22
+00:01:21.008 --> 00:01:23.008
+Tuple is just like list.
+
+23
+00:01:23.008 --> 00:01:29.008
+But the only difference is that it's immutable. Immutable here means, like, you cannot
+
+24
+00:01:29.008 --> 00:01:32.008
+Um, change the values.
+
+25
+00:01:32.008 --> 00:01:40.008
+So, whereas in CDs, you can append and remove with tuple, you can't do that. And maybe you're asking,
+
+26
+00:01:40.008 --> 00:01:45.008
+Uh, why do we even need tuple, then- I can just...
+
+27
+00:01:45.008 --> 00:01:50.008
+store all of my variables in Listen, because, like, tuple seems...
+
+28
+00:01:50.008 --> 00:01:56.008
+less powerful than LIST, right-
+
+29
+00:01:56.008 --> 00:02:01.008
+But, uh, the answer is that tuple... one of the answers is really
+
+30
+00:02:01.008 --> 00:02:03.008
+Tuple requires...
+
+31
+00:02:03.008 --> 00:02:08.008
+less memory than, uh, than list.
+
+32
+00:02:08.008 --> 00:02:13.008
+Although it's really insignificant. You can, of course,
+
+33
+00:02:13.008 --> 00:02:16.008
+use, uh, use lists for all of your...
+
+34
+00:02:16.008 --> 00:02:18.008
+array needs.
+
+35
+00:02:18.008 --> 00:02:22.008
+Um, and it's not gonna cost you that much.
+
+36
+00:02:22.008 --> 00:02:25.008
+difference in performance.
+
+37
+00:02:25.008 --> 00:02:28.008
+But the better practice here is...
+
+38
+00:02:28.008 --> 00:02:33.008
+Um, to use tuple when you know for sure that, um,
+
+39
+00:02:33.008 --> 00:02:35.008
+that your array is not gonna be...
+
+40
+00:02:35.008 --> 00:02:39.008
+is not going to be changing in your code.
+
+41
+00:02:39.008 --> 00:02:44.008
+Okay, and also, personally, I think another...
+
+42
+00:02:44.008 --> 00:02:47.008
+an AVER...
+
+43
+00:02:47.008 --> 00:02:52.008
+an even greater value out of using Topol is that
+
+44
+00:02:52.008 --> 00:02:55.008
+it makes your code more readable.
+
+45
+00:02:55.008 --> 00:02:59.008
+Like, by reading this, you know for sure that this is not gonna be...
+
+46
+00:02:59.008 --> 00:03:07.008
+Uh, not gonna be changed, and not gonna be able to be changed later on in the code, right- Whereas if you store it with lists,
+
+47
+00:03:07.008 --> 00:03:16.008
+Um, you don't know for sure, okay- Other part of the code may change it, and it makes the code a bit
+
+48
+00:03:16.008 --> 00:03:18.008
+less readable for me.
+
+49
+00:03:18.008 --> 00:03:21.008
+Dictionary, um...
+
+50
+00:03:21.008 --> 00:03:25.008
+it allows you to use...
+
+51
+00:03:25.008 --> 00:03:30.008
+Um, any values as an index of your...
+
+52
+00:03:30.008 --> 00:03:33.008
+of your... of your array.
+
+53
+00:03:33.008 --> 00:03:36.008
+So, if you really think about it, um, with
+
+54
+00:03:36.008 --> 00:03:38.008
+with list, or tuple-
+
+55
+00:03:38.008 --> 00:03:42.008
+For example, let's just use the list we created earlier.
+
+56
+00:03:42.008 --> 00:03:44.008
+We can access...
+
+57
+00:03:44.008 --> 00:03:47.008
+Um, any of the values by using
+
+58
+00:03:47.008 --> 00:03:49.008
+By using this number.
+
+59
+00:03:49.008 --> 00:03:53.008
+So, if you really think about it, the numbers here...
+
+60
+00:03:53.008 --> 00:03:59.008
+are the... are the indexes, right-
+
+61
+00:03:59.008 --> 00:04:01.008
+But, um, what if we want to...
+
+62
+00:04:01.008 --> 00:04:04.008
+store, um...
+
+63
+00:04:04.008 --> 00:04:08.008
+what if we want to use, like, other than numbers as a...
+
+64
+00:04:08.008 --> 00:04:14.008
+as the index. Well, we can use dictionary for that.
+
+65
+00:04:14.008 --> 00:04:18.008
+So, in this case...
+
+66
+00:04:18.008 --> 00:04:22.008
+Your data... this...
+
+67
+00:04:22.008 --> 00:04:25.008
+Um...
+
+68
+00:04:25.008 --> 00:04:29.008
+You can...
+
+69
+00:04:29.008 --> 00:04:31.008
+use...
+
+70
+00:04:31.008 --> 00:04:33.008
+Um, this, for example.
+
+71
+00:04:33.008 --> 00:04:35.008
+to get the second value.
+
+72
+00:04:35.008 --> 00:04:41.008
+New York City... New York City CSV.
+
+73
+00:04:41.008 --> 00:04:47.008
+So, um, how it's, uh... notice how it's, uh, how it's written.
+
+74
+00:04:47.008 --> 00:04:51.008
+So it starts with the indexes.
+
+75
+00:04:51.008 --> 00:04:55.008
+And then, um, the colon...
+
+76
+00:04:55.008 --> 00:04:56.008
+Uh, the column character.
+
+77
+00:04:56.008 --> 00:04:59.008
+And then followed by the values.
+
+78
+00:04:59.008 --> 00:05:02.008
+Right-
+
+79
+00:05:02.008 --> 00:05:07.008
+And the other, uh, the other one is, um, sets.
+
+80
+00:05:07.008 --> 00:05:11.008
+is, uh, it's basically similar to Tuple.
+
+81
+00:05:11.008 --> 00:05:13.008
+But, um...
+
+82
+00:05:13.008 --> 00:05:16.008
+it's gonna remove the...
+
+83
+00:05:16.008 --> 00:05:19.008
+the duplicate values.
+
+84
+00:05:19.008 --> 00:05:24.008
+Well, actually, it's... it's more like... it's more similar to... to list, in the sense that
+
+85
+00:05:24.008 --> 00:05:27.008
+Um, it's mutable, so you can...
+
+86
+00:05:27.008 --> 00:05:30.008
+You can add into... into sets.
+
+87
+00:05:30.008 --> 00:05:32.008
+Just as you can add into the list.
+
+88
+00:05:32.008 --> 00:05:35.008
+But the only difference is that the values are unique.
+
+89
+00:05:35.008 --> 00:05:38.008
+So, in this case, if you add...
+
+90
+00:05:38.008 --> 00:05:44.008
+Actually, I'm just gonna show you here.
+
+91
+00:05:44.008 --> 00:05:50.008
+If you add, um...
+
+92
+00:05:50.008 --> 00:05:55.008
+Thursday twice, for example.
+
+93
+00:05:55.008 --> 00:06:00.008
+It's not gonna show. The value Thursday is still gonna show once.
+
+94
+00:06:00.008 --> 00:06:02.008
+Okay- Because it attacks...
+
+95
+00:06:02.008 --> 00:06:03.000
+uniqueness in the... in the valleys.

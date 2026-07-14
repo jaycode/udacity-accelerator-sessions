@@ -1,0 +1,409 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.008
+Okay.
+
+2
+00:00:00.008 --> 00:00:05.008
+And all about debugging, the common way to debug, because, like, uh...
+
+3
+00:00:05.008 --> 00:00:12.008
+Okay, uh, if you're new to programming, I have to tell you one thing, that, um, don't be afraid to
+
+4
+00:00:12.008 --> 00:00:16.008
+Uh, don't be afraid of errors. Errors are there to help you.
+
+5
+00:00:16.008 --> 00:00:18.008
+Um, to get you to the right path.
+
+6
+00:00:18.008 --> 00:00:19.008
+All right- And, um...
+
+7
+00:00:19.008 --> 00:00:25.008
+Uh, you will run into errors, so you will have to learn
+
+8
+00:00:25.008 --> 00:00:30.008
+a proper way to debug your code.
+
+9
+00:00:30.008 --> 00:00:38.008
+The common way to debug is by printing out some values, and we run your app several times until you corrected the issues.
+
+10
+00:00:38.008 --> 00:00:44.008
+And for complex apps, this process can be tedious.
+
+11
+00:00:44.008 --> 00:00:45.008
+Um, with...
+
+12
+00:00:45.008 --> 00:00:49.008
+With Jupyter Notebook, you can simply create
+
+13
+00:00:49.008 --> 00:00:51.008
+a code block, and you can...
+
+14
+00:00:51.008 --> 00:00:55.008
+Uh, you can copy some part of your code there.
+
+15
+00:00:55.008 --> 00:00:59.008
+And you can print out the statement.
+
+16
+00:00:59.008 --> 00:01:01.008
+like this, um...
+
+17
+00:01:01.008 --> 00:01:04.008
+Path 1, for example.
+
+18
+00:01:04.008 --> 00:01:09.008
+That's 2. So if... let's say we... if we want to know
+
+19
+00:01:09.008 --> 00:01:13.008
+whether our app is running to this path or this path.
+
+20
+00:01:13.008 --> 00:01:20.008
+we can just run this code directly, right-
+
+21
+00:01:20.008 --> 00:01:22.008
+But, uh...
+
+22
+00:01:22.008 --> 00:01:28.008
+Oh, okay.
+
+23
+00:01:28.008 --> 00:01:34.008
+Yeah, like this. And then... and it tells you that, okay, so it runs to path 1,
+
+24
+00:01:34.008 --> 00:01:38.008
+Then, one of these.
+
+25
+00:01:38.008 --> 00:01:42.008
+So it's easy in Jupyter Notebook environment.
+
+26
+00:01:42.008 --> 00:01:47.008
+But in a complex application, it might not be as simple.
+
+27
+00:01:47.008 --> 00:01:52.008
+Um, and therefore, we want to use other methods.
+
+28
+00:01:52.008 --> 00:01:58.008
+And the PDB module is very useful for that. Basically, it allows you to
+
+29
+00:01:58.008 --> 00:02:00.008
+to create a brick point.
+
+30
+00:02:00.008 --> 00:02:06.008
+Uh, when the app reaches a breakpoint, your application is gonna stop running.
+
+31
+00:02:06.008 --> 00:02:10.008
+And you may write, um, some code and run...
+
+32
+00:02:10.008 --> 00:02:13.008
+and run them to examine the state of your app.
+
+33
+00:02:13.008 --> 00:02:18.008
+For example, you may check the value of a variable, or what happens when you've run a ver...
+
+34
+00:02:18.008 --> 00:02:20.008
+a particular code.
+
+35
+00:02:20.008 --> 00:02:27.008
+So if you... if you have this function, you can set... you can run a set trace here.
+
+36
+00:02:27.008 --> 00:02:32.008
+Which means the application is going to stop at this... at exactly this line,
+
+37
+00:02:32.008 --> 00:02:37.008
+And you can tell, uh, you can find out the value of value and results.
+
+38
+00:02:37.008 --> 00:02:41.008
+at this step.
+
+39
+00:02:41.008 --> 00:02:44.008
+It might sound confusing for now,
+
+40
+00:02:44.008 --> 00:02:55.008
+But, um, uh... but it's... it's pretty useful, so let's... let's do a very quick demo for that.
+
+41
+00:02:55.008 --> 00:02:57.008
+I'm just gonna use, um...
+
+42
+00:02:57.008 --> 00:03:00.008
+a workspace.
+
+43
+00:03:00.008 --> 00:03:04.008
+For the, um...
+
+44
+00:03:04.008 --> 00:03:08.008
+Uh, for... for the first half of this course.
+
+45
+00:03:08.008 --> 00:03:11.008
+Which is the Explore U.S. bike share data.
+
+46
+00:03:11.008 --> 00:03:16.008
+So, um, the kind of funny thing is that, um, in this project,
+
+47
+00:03:16.008 --> 00:03:21.008
+you're not gonna be using Jupyter notebook environment again.
+
+48
+00:03:21.008 --> 00:03:24.008
+They're going to be using this, um...
+
+49
+00:03:24.008 --> 00:03:29.008
+this scripting environment.
+
+50
+00:03:29.008 --> 00:03:34.008
+Which basically, uh, is the same as creating, um,
+
+51
+00:03:34.008 --> 00:03:42.008
+an actual Python script and running it, just like... just like running them in your own system.
+
+52
+00:03:42.008 --> 00:03:46.008
+So if you run... if you create a terminal,
+
+53
+00:03:46.008 --> 00:03:50.008
+And you can run...
+
+54
+00:03:50.008 --> 00:03:57.008
+So these are... these are your files, and you can run any of them. Uh, well, you can actually... you can only run the PYs
+
+55
+00:03:57.008 --> 00:04:01.008
+UI scripts, right- Like, share...
+
+56
+00:04:01.008 --> 00:04:05.008
+PR. You could use tap for auto-completion, by the way.
+
+57
+00:04:05.008 --> 00:04:08.008
+Enter. And this is...
+
+58
+00:04:08.008 --> 00:04:13.008
+This is what you're... you're gonna be working with, and in the first half of the...
+
+59
+00:04:13.008 --> 00:04:18.008
+of discourse.
+
+60
+00:04:18.008 --> 00:04:25.008
+Um, please enter a city, you can type in the city name, Chicago, for example.
+
+61
+00:04:25.008 --> 00:04:28.008
+Enter a month, pay all...
+
+62
+00:04:28.008 --> 00:04:31.008
+And either day, all day, and it's gonna...
+
+63
+00:04:31.008 --> 00:04:36.008
+prints out, um, some statistics of that city.
+
+64
+00:04:36.008 --> 00:04:38.008
+Okay, let's say...
+
+65
+00:04:38.008 --> 00:04:41.008
+Uh, let's say we are not confident,
+
+66
+00:04:41.008 --> 00:04:46.008
+about, um, the most common month, okay-
+
+67
+00:04:46.008 --> 00:04:51.008
+We want to see if this value is true.
+
+68
+00:04:51.008 --> 00:04:53.008
+Okay, but the application is already... is already written.
+
+69
+00:04:53.008 --> 00:04:58.008
+And it's difficult to track the code.
+
+70
+00:04:58.008 --> 00:05:00.008
+Um, one by one, right-
+
+71
+00:05:00.008 --> 00:05:05.008
+So, that's... that's one case where PDB is going to be useful.
+
+72
+00:05:05.008 --> 00:05:07.008
+So we can use PDV.
+
+73
+00:05:07.008 --> 00:05:10.008
+Wouldn't... wouldn't it be good
+
+74
+00:05:10.008 --> 00:05:11.008
+if... if we can stop the app,
+
+75
+00:05:11.008 --> 00:05:15.008
+before it prints out
+
+76
+00:05:15.008 --> 00:05:27.008
+this line. And we can... we can check, uh, where it got that decision.
+
+77
+00:05:27.008 --> 00:05:32.008
+Okay, so it comes from this, the most common ones, and it comes from this.
+
+78
+00:05:32.008 --> 00:05:39.008
+So we can do a PDB set trace in this case.
+
+79
+00:05:39.008 --> 00:05:41.008
+Okay, and this is something that... that...
+
+80
+00:05:41.008 --> 00:05:44.008
+Um, I think you're gonna use... well, if you're...
+
+81
+00:05:44.008 --> 00:05:58.008
+coding on your own, uh, in this project.
+
+82
+00:05:58.008 --> 00:06:02.008
+Okay.
+
+83
+00:06:02.008 --> 00:06:06.008
+It's like, I cannot stop here. So, I'm gonna create a new terminal.
+
+84
+00:06:06.008 --> 00:06:18.008
+And we run it.
+
+85
+00:06:18.008 --> 00:06:20.008
+Okay, so another sphere.
+
+86
+00:06:20.008 --> 00:06:23.008
+that it shows the code.
+
+87
+00:06:23.008 --> 00:06:26.008
+right after the...
+
+88
+00:06:26.008 --> 00:06:30.008
+the PDB, right after the PDB line.
+
+89
+00:06:30.008 --> 00:06:33.008
+Okay- And you can...
+
+90
+00:06:33.008 --> 00:06:38.008
+you can investigate any variables that are active at this point.
+
+91
+00:06:38.008 --> 00:06:41.008
+So, for example, popular months here-
+
+92
+00:06:41.008 --> 00:06:45.008
+You can just type it in. Popular...
+
+93
+00:06:45.008 --> 00:06:47.008
+underscore months.
+
+94
+00:06:47.008 --> 00:06:54.008
+Okay, and see, oh, okay, it's indeed 6. And you can, you can also tell, like, where it came from.
+
+95
+00:06:54.008 --> 00:06:57.008
+So you can...
+
+96
+00:06:57.008 --> 00:07:00.008
+Copy and paste this...
+
+97
+00:07:00.008 --> 00:07:01.008
+be the mode.
+
+98
+00:07:01.008 --> 00:07:05.008
+DF... months...
+
+99
+00:07:05.008 --> 00:07:08.008
+Like this... yeah.
+
+100
+00:07:08.008 --> 00:07:12.008
+So, but... so yeah, so the purpose is really to create a
+
+101
+00:07:12.008 --> 00:07:17.008
+brick point, and you can view all of the variables created so far.
+
+102
+00:07:17.008 --> 00:07:25.000
+And that's why it's pretty useful for debugging.

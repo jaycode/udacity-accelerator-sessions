@@ -1,0 +1,361 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.903
+It makes you a better AI user.
+
+2
+00:00:00.903 --> 00:00:08.903
+Okay, so another function that I use quite often is .info. It allows you to
+
+3
+00:00:08.903 --> 00:00:13.903
+provide, uh, to... to... to see a summary of your data frame.
+
+4
+00:00:13.903 --> 00:00:17.903
+such. See the data types...
+
+5
+00:00:17.903 --> 00:00:19.903
+the, um...
+
+6
+00:00:19.903 --> 00:00:21.903
+The number of entries...
+
+7
+00:00:21.903 --> 00:00:27.903
+columns, and what's not.
+
+8
+00:00:27.903 --> 00:00:33.903
+Um, for numeric data, you can use Describe. It's going to provide...
+
+9
+00:00:33.903 --> 00:00:39.903
+Um, to output the summary statistics.
+
+10
+00:00:39.903 --> 00:00:44.903
+Counts means standard deviation, minimum, the quartiles.
+
+11
+00:00:44.903 --> 00:00:49.903
+the maximum number... the maximum value.
+
+12
+00:00:49.903 --> 00:00:53.903
+Okay- And this is pretty important to value counts.
+
+13
+00:00:53.903 --> 00:00:56.903
+So let's... let's just see this in action.
+
+14
+00:00:56.903 --> 00:01:03.903
+So, let's say you're working with original data. In this case, the ordinal data is expensive or not.
+
+15
+00:01:03.903 --> 00:01:05.903
+Right- And you want to find out
+
+16
+00:01:05.903 --> 00:01:10.903
+How many of those rows are expensive, and how many of those rows are not expensive-
+
+17
+00:01:10.903 --> 00:01:17.903
+can do value count with that.
+
+18
+00:01:17.903 --> 00:01:21.903
+That's our new counts.
+
+19
+00:01:21.903 --> 00:01:24.903
+Okay- It's going to tell you...
+
+20
+00:01:24.903 --> 00:01:27.903
+Exactly that. How many rows-
+
+21
+00:01:27.903 --> 00:01:37.903
+have the expensive value true, and how many are volts.
+
+22
+00:01:37.903 --> 00:01:39.903
+You can also group the sales.
+
+23
+00:01:39.903 --> 00:01:42.903
+Uh, you can also do grouping and aggregations.
+
+24
+00:01:42.903 --> 00:01:46.903
+with Pandas. There's a similar to...
+
+25
+00:01:46.903 --> 00:01:49.903
+um, pivot table.
+
+26
+00:01:49.903 --> 00:01:54.903
+If you ever use... if you've ever used this in Excel.
+
+27
+00:01:54.903 --> 00:01:59.903
+like, in this case, um, you can group
+
+28
+00:01:59.903 --> 00:02:01.903
+by the city, and then...
+
+29
+00:02:01.903 --> 00:02:04.903
+Um,
+
+30
+00:02:04.903 --> 00:02:08.903
+the sum of all of those data, in this case,
+
+31
+00:02:08.903 --> 00:02:12.903
+Um, uh, the sum of the sales data.
+
+32
+00:02:12.903 --> 00:02:16.903
+You can also use other aggregation methods.
+
+33
+00:02:16.903 --> 00:02:20.903
+sum, and mean of sales, for example.
+
+34
+00:02:20.903 --> 00:02:23.903
+Like, in our example here...
+
+35
+00:02:23.903 --> 00:02:28.903
+Um, let's see what we can do...
+
+36
+00:02:28.903 --> 00:02:33.903
+Okay, what's the syntax again-
+
+37
+00:02:33.903 --> 00:02:41.903
+Let's see, um...
+
+38
+00:02:41.903 --> 00:02:43.903
+Hmm.
+
+39
+00:02:43.903 --> 00:02:45.903
+Okay, um, I...
+
+40
+00:02:45.903 --> 00:02:48.903
+I can... I can do, like, a grouping...
+
+41
+00:02:48.903 --> 00:02:53.903
+a year, and, um, get a... get a...
+
+42
+00:02:53.903 --> 00:02:55.903
+an average of... of...
+
+43
+00:02:55.903 --> 00:02:59.903
+of each of... each of those years.
+
+44
+00:02:59.903 --> 00:03:01.903
+Um...
+
+45
+00:03:01.903 --> 00:03:05.903
+And here's the thing, it's actually a good... a very good example.
+
+46
+00:03:05.903 --> 00:03:09.903
+So, um, as I mentioned earlier, I don't like to memorize things.
+
+47
+00:03:09.903 --> 00:03:14.903
+Even... even now, I don't remember how I can group
+
+48
+00:03:14.903 --> 00:03:16.903
+the dates, right- And...
+
+49
+00:03:16.903 --> 00:03:23.903
+I think the dates are even in the wrong data format, because it's... because we just imported
+
+50
+00:03:23.903 --> 00:03:26.903
+It's imported the dates from the CSV file.
+
+51
+00:03:26.903 --> 00:03:30.903
+So let's check this out with info.
+
+52
+00:03:30.903 --> 00:03:37.903
+So notice here. This is... this is still an object, right- We want... we want it to be a date-time object instead, so we can group
+
+53
+00:03:37.903 --> 00:03:51.903
+Group it by the years.
+
+54
+00:03:51.903 --> 00:03:58.903
+Um, I'll, uh, in this case, I'm trying my best, um,
+
+55
+00:03:58.903 --> 00:04:09.903
+if I remember the syntax correctly, I will be wrong here.
+
+56
+00:04:09.903 --> 00:04:14.903
+8 times. Okay, this is gonna be wrong, because this is a wrong syntax.
+
+57
+00:04:14.903 --> 00:04:15.903
+But, still, I can use...
+
+58
+00:04:15.903 --> 00:04:19.903
+In this case, Udacity's AI, and this is a, um...
+
+59
+00:04:19.903 --> 00:04:22.903
+a good way to...
+
+60
+00:04:22.903 --> 00:04:27.903
+To show you, uh, what this can do, and actually show myself, because I've never used it.
+
+61
+00:04:27.903 --> 00:04:31.903
+I use this, um, this AI agent.
+
+62
+00:04:31.903 --> 00:04:37.903
+Um, fix this code.
+
+63
+00:04:37.903 --> 00:04:40.903
+Let's see if it even understands...
+
+64
+00:04:40.903 --> 00:04:48.903
+what we wanted to do. Oh, okay. Yes.
+
+65
+00:04:48.903 --> 00:04:54.903
+So the first thing is to set the date as a date time.
+
+66
+00:04:54.903 --> 00:04:57.903
+If I do info again, it converts to date time.
+
+67
+00:04:57.903 --> 00:05:01.903
+and I want to group.
+
+68
+00:05:01.903 --> 00:05:05.903
+by gigs.
+
+69
+00:05:05.903 --> 00:05:07.903
+And, um...
+
+70
+00:05:07.903 --> 00:05:09.903
+I want to get the mean.
+
+71
+00:05:09.903 --> 00:05:27.903
+of the, um, close price.
+
+72
+00:05:27.903 --> 00:05:38.903
+by here.
+
+73
+00:05:38.903 --> 00:05:40.903
+So, this is the code.
+
+74
+00:05:40.903 --> 00:05:44.903
+that I need.
+
+75
+00:05:44.903 --> 00:05:53.903
+Okay...
+
+76
+00:05:53.903 --> 00:05:58.903
+The irony here is I'm definitely not gonna pass any programming interview very soon.
+
+77
+00:05:58.903 --> 00:06:01.903
+Okay,
+
+78
+00:06:01.903 --> 00:06:03.903
+But yeah, so Group By...
+
+79
+00:06:03.903 --> 00:06:05.903
+DT here...
+
+80
+00:06:05.903 --> 00:06:08.903
+uh, aggregate... then aggregates with a...
+
+81
+00:06:08.903 --> 00:06:12.903
+close, um, close column.
+
+82
+00:06:12.903 --> 00:06:14.903
+And get the mean of each year.
+
+83
+00:06:14.903 --> 00:06:22.903
+Okay- And I've shown you, like, the whole process of how I will do it.
+
+84
+00:06:22.903 --> 00:06:35.903
+With the help of the agent that is provided by Udacity. So this is very useful.
+
+85
+00:06:35.903 --> 00:06:39.903
+Okay. All right, so here's what I want you to do.
+
+86
+00:06:39.903 --> 00:06:41.903
+Um, and I'm gonna give you, um...
+
+87
+00:06:41.903 --> 00:06:44.903
+10 minutes to...
+
+88
+00:06:44.903 --> 00:06:47.903
+To open up, um, this workspace.
+
+89
+00:06:47.903 --> 00:06:50.903
+Okay- And, um...
+
+90
+00:06:50.903 --> 00:06:53.000
+try running this exercise.

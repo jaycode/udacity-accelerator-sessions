@@ -1,0 +1,341 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.008
+And it's gonna run everything for you.
+
+2
+00:00:00.008 --> 00:00:02.008
+Um, and to run a Python script,
+
+3
+00:00:02.008 --> 00:00:07.008
+You can just open up a comment prompt and navigate to the script location,
+
+4
+00:00:07.008 --> 00:00:10.008
+And then just run the script, uh, by...
+
+5
+00:00:10.008 --> 00:00:13.008
+with this command, called Python...
+
+6
+00:00:13.008 --> 00:00:17.008
+Followed by the scripting.
+
+7
+00:00:17.008 --> 00:00:21.008
+And if you... if you just want to test out some code, you can...
+
+8
+00:00:21.008 --> 00:00:26.008
+simply run Python to open up Python Interpreter. If I just type
+
+9
+00:00:26.008 --> 00:00:29.008
+Is Python-
+
+10
+00:00:29.008 --> 00:00:35.008
+Oh. Okay.
+
+11
+00:00:35.008 --> 00:00:41.008
+Okay, if I just type in Python...
+
+12
+00:00:41.008 --> 00:00:47.008
+This allows me to run Python code.
+
+13
+00:00:47.008 --> 00:00:50.008
+I guess, right-
+
+14
+00:00:50.008 --> 00:00:52.008
+And I can exit the environment.
+
+15
+00:00:52.008 --> 00:00:57.008
+So, um, work on here is...
+
+16
+00:00:57.008 --> 00:01:04.008
+is the way to choose environment using Percival and wrapper. When you're using Anaconda, it's gonna be...
+
+17
+00:01:04.008 --> 00:01:07.008
+I think it's gonna be Conda Space.
+
+18
+00:01:07.008 --> 00:01:13.008
+the environment name.
+
+19
+00:01:13.008 --> 00:01:19.008
+Okay. Okay, the next thing, uh, you need to know about Python is that it allows
+
+20
+00:01:19.008 --> 00:01:22.008
+importing functions from local scripts.
+
+21
+00:01:22.008 --> 00:01:24.008
+by using the import statement.
+
+22
+00:01:24.008 --> 00:01:27.008
+So this is how the code is gonna be like.
+
+23
+00:01:27.008 --> 00:01:30.008
+So, if you have a script called utils,
+
+24
+00:01:30.008 --> 00:01:37.008
+the PY, and then you want to import the GetCityData function from it.
+
+25
+00:01:37.008 --> 00:01:43.008
+You can type this.
+
+26
+00:01:43.008 --> 00:01:46.008
+So, um, again, if...
+
+27
+00:01:46.008 --> 00:01:49.008
+again, in a... in a real-world project.
+
+28
+00:01:49.008 --> 00:01:54.008
+You usually see all of those imports at the top.
+
+29
+00:01:54.008 --> 00:01:56.008
+So notice here, I import, um...
+
+30
+00:01:56.008 --> 00:01:58.008
+some functions, some classes from...
+
+31
+00:01:58.008 --> 00:02:01.008
+From this typing module...
+
+32
+00:02:01.008 --> 00:02:05.008
+I import, uh, these results, uh,
+
+33
+00:02:05.008 --> 00:02:09.008
+I don't know, it's either a variable or a function.
+
+34
+00:02:09.008 --> 00:02:12.008
+From the unit test, uh, module,
+
+35
+00:02:12.008 --> 00:02:16.008
+And these other functions from these modules.
+
+36
+00:02:16.008 --> 00:02:26.008
+Okay-
+
+37
+00:02:26.008 --> 00:02:28.008
+Yep. So, um...
+
+38
+00:02:28.008 --> 00:02:34.008
+Yeah, you can, um, you can import either local scripts or, uh,
+
+39
+00:02:34.008 --> 00:02:37.008
+Python modules.
+
+40
+00:02:37.008 --> 00:02:46.008
+And, um, you can... if you need... if you require more modules, let's say you set up a local system, you don't have
+
+41
+00:02:46.008 --> 00:02:55.008
+pandas and NumPy yet, you can... you can install it by running this code conda install pandas and pip install pandas.
+
+42
+00:02:55.008 --> 00:03:01.008
+And then just use it in your code, like so.
+
+43
+00:03:01.008 --> 00:03:06.008
+So, let's say...
+
+44
+00:03:06.008 --> 00:03:08.008
+this code, for example, if I create a new code.
+
+45
+00:03:08.008 --> 00:03:11.008
+code cell-
+
+46
+00:03:11.008 --> 00:03:13.008
+If I don't have this...
+
+47
+00:03:13.008 --> 00:03:17.008
+this import statement.
+
+48
+00:03:17.008 --> 00:03:19.008
+It says PD is not defined.
+
+49
+00:03:19.008 --> 00:03:24.008
+But if I import the Pandas module and give it an Elias PD,
+
+50
+00:03:24.008 --> 00:03:36.008
+then it should work, right-
+
+51
+00:03:36.008 --> 00:03:44.008
+And, uh, you can also use tryExcept to handle errors.
+
+52
+00:03:44.008 --> 00:03:47.008
+um... like this.
+
+53
+00:03:47.008 --> 00:03:51.008
+You have... let's see if this can work.
+
+54
+00:03:51.008 --> 00:03:58.008
+On this code.
+
+55
+00:03:58.008 --> 00:04:01.008
+All right. So, um...
+
+56
+00:04:01.008 --> 00:04:04.008
+let's say that... okay, C...
+
+57
+00:04:04.008 --> 00:04:08.008
+system argument, um, it basically...
+
+58
+00:04:08.008 --> 00:04:11.008
+um, allows you to run...
+
+59
+00:04:11.008 --> 00:04:15.008
+Um, to get an argument from a command line.
+
+60
+00:04:15.008 --> 00:04:20.008
+application. This is something that you're... you're gonna use in your...
+
+61
+00:04:20.008 --> 00:04:30.008
+in your final pro... in your final project for this course.
+
+62
+00:04:30.008 --> 00:04:32.008
+So, um, let's see...
+
+63
+00:04:32.008 --> 00:04:37.008
+So it goes to invalid city name providers, so...
+
+64
+00:04:37.008 --> 00:04:40.008
+In other words, it goes to this error,
+
+65
+00:04:40.008 --> 00:04:46.008
+The reason is that, um...
+
+66
+00:04:46.008 --> 00:04:49.008
+6 ARCV.
+
+67
+00:04:49.008 --> 00:04:51.008
+So if we do this...
+
+68
+00:04:51.008 --> 00:04:53.008
+It actually has a...
+
+69
+00:04:53.008 --> 00:04:57.008
+an argument, so this variable is not empty.
+
+70
+00:04:57.008 --> 00:05:00.008
+Okay- That's why it's larger than 1.
+
+71
+00:05:00.008 --> 00:05:04.008
+Right- So it goes... it goes to this.
+
+72
+00:05:04.008 --> 00:05:06.008
+Uh, it goes to this, um...
+
+73
+00:05:06.008 --> 00:05:08.008
+scope.
+
+74
+00:05:08.008 --> 00:05:12.008
+But then, the fir- uh, the second argument...
+
+75
+00:05:12.008 --> 00:05:17.008
+index 1. If you lower it, which is this argument,
+
+76
+00:05:17.008 --> 00:05:19.008
+is not a city name.
+
+77
+00:05:19.008 --> 00:05:24.008
+Right- That's why it goes to...
+
+78
+00:05:24.008 --> 00:05:30.008
+this value error, invalid city name provided. And that's why it prints out that error.
+
+79
+00:05:30.008 --> 00:05:33.008
+Okay.
+
+80
+00:05:33.008 --> 00:05:40.008
+You may catch different types of errors, so these are, like, the types of errors you can use.
+
+81
+00:05:40.008 --> 00:05:44.008
+Or you can use other types of errors.
+
+82
+00:05:44.008 --> 00:05:46.008
+And then you can shop for them.
+
+83
+00:05:46.008 --> 00:05:50.008
+And this documentation-
+
+84
+00:05:50.008 --> 00:05:53.008
+Those are the types of errors.
+
+85
+00:05:53.008 --> 00:05:58.000
+Uh, but personally, I use AI agents to help me with those.

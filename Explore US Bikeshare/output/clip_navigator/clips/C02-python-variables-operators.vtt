@@ -1,0 +1,549 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.008
+And exploring near-Earth objects.
+
+2
+00:00:00.008 --> 00:00:03.008
+Okay, now let's go through the basics of... of...
+
+3
+00:00:03.008 --> 00:00:06.008
+Python programming.
+
+4
+00:00:06.008 --> 00:00:09.008
+Okay, so, um...
+
+5
+00:00:09.008 --> 00:00:12.008
+In any programming languages, um,
+
+6
+00:00:12.008 --> 00:00:18.008
+they all have variables, data types, and operators. Remind me if there's any
+
+7
+00:00:18.008 --> 00:00:20.008
+programming language that, uh,
+
+8
+00:00:20.008 --> 00:00:24.008
+that doesn't have, like, any of this tree.
+
+9
+00:00:24.008 --> 00:00:26.008
+I think even assembly...
+
+10
+00:00:26.008 --> 00:00:32.008
+Yeah, no, assembly maybe don't have data types.
+
+11
+00:00:32.008 --> 00:00:34.008
+Um...
+
+12
+00:00:34.008 --> 00:00:38.008
+Alright, so, um...
+
+13
+00:00:38.008 --> 00:00:42.008
+this, uh, these are the examples of variables.
+
+14
+00:00:42.008 --> 00:00:45.008
+A value can be assigned to a variable.
+
+15
+00:00:45.008 --> 00:00:49.008
+For example, if I... if I write this, CT equals to Chicago,
+
+16
+00:00:49.008 --> 00:00:58.008
+then I... that means I store the value Chicago in the variable called city.
+
+17
+00:00:58.008 --> 00:01:02.008
+And those variables may have different types.
+
+18
+00:01:02.008 --> 00:01:05.008
+like, um, string, in this case.
+
+19
+00:01:05.008 --> 00:01:09.008
+serving is the same as text.
+
+20
+00:01:09.008 --> 00:01:12.008
+or, uh, floating numbers,
+
+21
+00:01:12.008 --> 00:01:19.008
+Or even, like, true or false, which is... which we call Boolean value.
+
+22
+00:01:19.008 --> 00:01:23.008
+Um, they also can have, um, complex types.
+
+23
+00:01:23.008 --> 00:01:27.008
+list tuple dictionary and sets.
+
+24
+00:01:27.008 --> 00:01:29.008
+Um...
+
+25
+00:01:29.008 --> 00:01:34.008
+What are complex types- Those are, like, the array, uh,
+
+26
+00:01:34.008 --> 00:01:43.008
+Those are, like, if you want to store multiple values in a set, uh, in a variable, for example, you can store it in any of those.
+
+27
+00:01:43.008 --> 00:01:46.008
+Okay. And...
+
+28
+00:01:46.008 --> 00:01:50.008
+You can obviously also perform some operations.
+
+29
+00:01:50.008 --> 00:01:57.008
+mathematical operations, and the two equal signs here is called the equal operator.
+
+30
+00:01:57.008 --> 00:01:59.008
+it's to convert...
+
+31
+00:01:59.008 --> 00:02:03.008
+um, the operation into Boolean value.
+
+32
+00:02:03.008 --> 00:02:05.008
+So, in this case, for example,
+
+33
+00:02:05.008 --> 00:02:10.008
+is we can double equals false. It basically asks,
+
+34
+00:02:10.008 --> 00:02:13.008
+Um, uh, if...
+
+35
+00:02:13.008 --> 00:02:19.008
+is we can if equals false, then it's gonna return true.
+
+36
+00:02:19.008 --> 00:02:23.008
+Okay. Uh, Python also have, uh, type conversion.
+
+37
+00:02:23.008 --> 00:02:26.008
+like this, uh, it converts...
+
+38
+00:02:26.008 --> 00:02:32.008
+the right cost into a string.
+
+39
+00:02:32.008 --> 00:02:43.008
+Okay, uh, so for... for anybody new to programming, this may sound confusing, so let's... let's try to demo it on the workspace. Um, this is actually also a good time to...
+
+40
+00:02:43.008 --> 00:02:46.008
+to introduce you to the, um...
+
+41
+00:02:46.008 --> 00:02:52.008
+to the workspace in Udacity platform.
+
+42
+00:02:52.008 --> 00:02:58.008
+So, the thing is, like, it's gonna be really difficult to learn programming without
+
+43
+00:02:58.008 --> 00:03:03.008
+having... being able to try anything that you learn, right-
+
+44
+00:03:03.008 --> 00:03:06.008
+So, um, Udacity provides
+
+45
+00:03:06.008 --> 00:03:09.008
+this thing called Workspace.
+
+46
+00:03:09.008 --> 00:03:11.008
+That allows you to... to...
+
+47
+00:03:11.008 --> 00:03:18.008
+to run your code.
+
+48
+00:03:18.008 --> 00:03:19.008
+Yeah.
+
+49
+00:03:19.008 --> 00:03:28.008
+Whether we have to install any kind of software for Python, or any things regard to install from any... from our
+
+50
+00:03:28.008 --> 00:03:33.008
+No, you don't need to install anything, and that's the beauty of it. And actually, I urge you to...
+
+51
+00:03:33.008 --> 00:03:39.008
+If possible, lock into your Udacity, uh, classroom.
+
+52
+00:03:39.008 --> 00:03:42.008
+Right, so you can try it on your own.
+
+53
+00:03:42.008 --> 00:03:46.008
+Later on, we're also gonna have, like, a quiz
+
+54
+00:03:46.008 --> 00:03:50.008
+Where you're gonna have to do things in team.
+
+55
+00:03:50.008 --> 00:03:54.008
+And do them on your workspace.
+
+56
+00:03:54.008 --> 00:03:56.008
+So, yeah.
+
+57
+00:03:56.008 --> 00:04:02.008
+So, um, so this is... this is how the workspace looks like, and...
+
+58
+00:04:02.008 --> 00:04:07.008
+Um, it's basically running, uh, what you call
+
+59
+00:04:07.008 --> 00:04:10.008
+a Jupyter notebook environment.
+
+60
+00:04:10.008 --> 00:04:18.008
+Um, you can run the same environment locally, and this is really good for data analysis.
+
+61
+00:04:18.008 --> 00:04:21.008
+And I'm gonna show you why this is really good.
+
+62
+00:04:21.008 --> 00:04:22.008
+So if I click on any of the...
+
+63
+00:04:22.008 --> 00:04:26.008
+documents created by Jupyter Notebook.
+
+64
+00:04:26.008 --> 00:04:30.008
+It allows you to, um, create, uh, text-based
+
+65
+00:04:30.008 --> 00:04:35.008
+cells, which we call marked-on cells.
+
+66
+00:04:35.008 --> 00:04:40.008
+Okay- And by pressing Ctrl-Enter, it's gonna be formatted nicely.
+
+67
+00:04:40.008 --> 00:04:48.008
+And it also allows you to create code like this.
+
+68
+00:04:48.008 --> 00:04:53.008
+So, um, let's create a code cell for now.
+
+69
+00:04:53.008 --> 00:05:03.008
+And, um, let's just copy, like, this whole thing here.
+
+70
+00:05:03.008 --> 00:05:12.008
+Okay, so if I... if I run... well, I typed, uh, Ctrl-Enter, which is the same as, like, clicking this button right here.
+
+71
+00:05:12.008 --> 00:05:16.008
+And it stays true here, um...
+
+72
+00:05:16.008 --> 00:05:19.008
+Which is the output of the last
+
+73
+00:05:19.008 --> 00:05:22.008
+Um, the last statement.
+
+74
+00:05:22.008 --> 00:05:24.008
+So, what it did when I
+
+75
+00:05:24.008 --> 00:05:26.008
+when I ran this...
+
+76
+00:05:26.008 --> 00:05:31.008
+code cell is that it ran this code, this entire code.
+
+77
+00:05:31.008 --> 00:05:36.008
+So if I... if I create another code cell,
+
+78
+00:05:36.008 --> 00:05:41.008
+And I want to know what's the value of, say, city, for example. I can just
+
+79
+00:05:41.008 --> 00:05:44.008
+type that variable in.
+
+80
+00:05:44.008 --> 00:05:48.008
+We'll enter again, and it says Chicago, right-
+
+81
+00:05:48.008 --> 00:05:53.008
+And this is what makes it really good for data analysis, because, like, um...
+
+82
+00:05:53.008 --> 00:06:00.008
+Imagine if you have to, like, create, like, the entire applications before...
+
+83
+00:06:00.008 --> 00:06:06.008
+you're able to see that the results. That's gonna be a bit difficult, right- Especially if
+
+84
+00:06:06.008 --> 00:06:08.008
+If you have to, um...
+
+85
+00:06:08.008 --> 00:06:10.008
+you have a lot of, uh,
+
+86
+00:06:10.008 --> 00:06:16.008
+prior transformations of the data before you can process them.
+
+87
+00:06:16.008 --> 00:06:20.008
+with this kind of platform.
+
+88
+00:06:20.008 --> 00:06:26.008
+you don't have to reprocess your data, you can just, like, process your data and...
+
+89
+00:06:26.008 --> 00:06:31.008
+in, like, a code cell, and then you... and then you can use another cell to...
+
+90
+00:06:31.008 --> 00:06:41.008
+Um, to interact with the results of your transformation.
+
+91
+00:06:41.008 --> 00:06:45.008
+Okay, so, um, I made a bit of a mistake there.
+
+92
+00:06:45.008 --> 00:06:49.008
+Um, the true here is not the result of the last
+
+93
+00:06:49.008 --> 00:06:55.008
+statement, but this is the result of this statement here, print.
+
+94
+00:06:55.008 --> 00:07:00.008
+So, print is basically, uh, as the name suggests, it prints out
+
+95
+00:07:00.008 --> 00:07:07.008
+stuff, right- And you can even print out string.
+
+96
+00:07:07.008 --> 00:07:10.008
+And you can add string...
+
+97
+00:07:10.008 --> 00:07:12.008
+into, um...
+
+98
+00:07:12.008 --> 00:07:16.008
+Uh, you can add variables into your streams.
+
+99
+00:07:16.008 --> 00:07:20.008
+I usually like to use this format.
+
+100
+00:07:20.008 --> 00:07:22.008
+city-
+
+101
+00:07:22.008 --> 00:07:25.008
+Oh, like this.
+
+102
+00:07:25.008 --> 00:07:30.008
+Like this. Uh, but you can also do things like this.
+
+103
+00:07:30.008 --> 00:07:34.008
+Did he...
+
+104
+00:07:34.008 --> 00:07:41.008
+Okay- So... and there are many variations, too, like, into this. So the thing with... with...
+
+105
+00:07:41.008 --> 00:07:48.008
+with Python. I think it's especially with Python, because, like, I've learned a couple of other programming languages,
+
+106
+00:07:48.008 --> 00:07:51.008
+But in the case of Python,
+
+107
+00:07:51.008 --> 00:07:54.008
+The alternatives of doing things,
+
+108
+00:07:54.008 --> 00:08:01.008
+aren't just, like, so many. So, uh, they kind of modeled Python like an English
+
+109
+00:08:01.008 --> 00:08:03.000
+an actual English language. There are...
+
+110
+00:08:03.000 --> 00:08:03.008
+Stop sharing, but how do I stop sharing from here- I wonder.
+
+111
+00:08:03.008 --> 00:08:05.008
+Oh, there it is.
+
+112
+00:08:05.008 --> 00:08:16.008
+Okay...
+
+113
+00:08:16.008 --> 00:08:18.008
+Launch. Okay.
+
+114
+00:08:18.008 --> 00:08:21.008
+Um, do you... do you get the...
+
+115
+00:08:21.008 --> 00:08:26.008
+Um, the quiz pop-up on your screen.
+
+116
+00:08:26.008 --> 00:08:30.008
+Ah, great. Thank you, too, because, like, I saw a couple of answers.
+
+117
+00:08:30.008 --> 00:08:36.008
+Yeah, it works.
+
+118
+00:08:36.008 --> 00:08:43.008
+Alright, very good. All of you answered correctly, um, true.
+
+119
+00:08:43.008 --> 00:08:52.008
+Alright, so that's good. So, yeah, um, this equal... double equal sign, it basically tests for the truthfulness of the statement.
+
+120
+00:08:52.008 --> 00:08:57.008
+And pulls...
+
+121
+00:08:57.008 --> 00:08:59.008
+Oh. Okay.
+
+122
+00:08:59.008 --> 00:09:07.008
+So, um, one person said it will raise an error. That's actually an interesting observation.
+
+123
+00:09:07.008 --> 00:09:26.008
+Um, do you want to share with me, maybe, uh, why do you think it's going to raise an error-
+
+124
+00:09:26.008 --> 00:09:31.008
+I... I can't actually see...
+
+125
+00:09:31.008 --> 00:09:40.008
+I can't actually see who answered that, but...
+
+126
+00:09:40.008 --> 00:09:44.008
+Um... yeah, okay, sorry about that. Okay, so yeah, um...
+
+127
+00:09:44.008 --> 00:09:49.008
+I... uh, the correct answer in this case is true.
+
+128
+00:09:49.008 --> 00:09:52.008
+Because, like, um, and we can, we can actually test it right away.
+
+129
+00:09:52.008 --> 00:10:00.008
+Let me share my screen again.
+
+130
+00:10:00.008 --> 00:10:03.008
+So this is literally my... my first...
+
+131
+00:10:03.008 --> 00:10:09.008
+Uh, my first session that, uh, that I use a quiz, so forgive me if there are, uh,
+
+132
+00:10:09.008 --> 00:10:11.008
+a couple of hiccups there.
+
+133
+00:10:11.008 --> 00:10:15.008
+And, um, let's see...
+
+134
+00:10:15.008 --> 00:10:17.008
+Copy this, and let's create a new code cell.
+
+135
+00:10:17.008 --> 00:10:21.008
+And just print it up. Okay, so the answer is true.
+
+136
+00:10:21.008 --> 00:10:24.008
+Alright-
+
+137
+00:10:24.008 --> 00:10:32.000
+Alright, next. Mmm...
