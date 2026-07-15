@@ -1,0 +1,79 @@
+[
+  {
+    "branch_id":"B101",
+    "branch_name":"Central Library",
+    "branch_city":"New York",
+    "state":"NY",
+    "region":"Northeast",
+    "opened_year":1911,
+    "square_feet":80000,
+    "annual_visits":"1,250,000",
+    "wifi_available":true
+  },
+  {
+    "branch_id":"B102",
+    "branch_name":"Westside Branch",
+    "branch_city":"Los Angeles",
+    "state":"CA",
+    "region":"West",
+    "opened_year":1954,
+    "square_feet":45000,
+    "annual_visits":"850,000",
+    "wifi_available":true
+  },
+  {
+    "branch_id":"B103",
+    "branch_name":"Lakeview Branch",
+    "branch_city":"Chicago",
+    "state":"IL",
+    "region":"Midwest",
+    "opened_year":1972,
+    "square_feet":38000,
+    "annual_visits":"620,000",
+    "wifi_available":true
+  },
+  {
+    "branch_id":"B104",
+    "branch_name":"Bayou Branch",
+    "branch_city":"Houston",
+    "state":"TX",
+    "region":"South",
+    "opened_year":1985,
+    "square_feet":32000,
+    "annual_visits":"540,000",
+    "wifi_available":false
+  },
+  {
+    "branch_id":"B105",
+    "branch_name":"Desert Ridge Branch",
+    "branch_city":"Phoenix",
+    "state":"AZ",
+    "region":"West",
+    "opened_year":2001,
+    "square_feet":28000,
+    "annual_visits":"410,000",
+    "wifi_available":true
+  },
+  {
+    "branch_id":"B106",
+    "branch_name":"Liberty Branch",
+    "branch_city":"Philadelphia",
+    "state":"PA",
+    "region":"Northeast",
+    "opened_year":1963,
+    "square_feet":36000,
+    "annual_visits":"575,000",
+    "wifi_available":true
+  },
+  {
+    "branch_id":"B107",
+    "branch_name":"Riverwalk Branch",
+    "branch_city":"San Antonio",
+    "state":"TX",
+    "region":"South",
+    "opened_year":1995,
+    "square_feet":30000,
+    "annual_visits":"390,000",
+    "wifi_available":false
+  }
+]

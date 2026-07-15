@@ -1,0 +1,55 @@
+registration_id,learner_name,Age,city,branch_id,program_id,program_name,session_date,program_type,registration_status,attendance_hours,pre_score,post_score,fee_paid,scholarship_amount,interest,branch_name,branch_city,state,region,opened_year,square_feet,annual_visits,wifi_available
+R001,Emma Johnson,8,New York,B101,P001,Intro to Python,2026-01-12,STEM,Attended,2.0,45,72,0,25,coding,Central Library,New York,NY,Northeast,1911,80000,1250000,True
+R001,Emma Johnson,8,New York,B101,P001,Intro to Python,2026-01-12,STEM,Attended,2.0,45,72,0,25,robots,Central Library,New York,NY,Northeast,1911,80000,1250000,True
+R002,Liam Smith,10,Los Angeles,B102,P001,Intro to Python,2026-01-20,STEM,Attended,2.5,50,80,0,25,coding,Westside Branch,Los Angeles,CA,West,1954,45000,850000,True
+R002,Liam Smith,10,Los Angeles,B102,P001,Intro to Python,2026-01-20,STEM,Attended,2.5,50,80,0,25,games,Westside Branch,Los Angeles,CA,West,1954,45000,850000,True
+R003,Olivia Brown,11,Chicago,B103,P002,Data Storytelling,2026-02-02,Data,No Show,0.0,60,78,5,0,charts,Lakeview Branch,Chicago,IL,Midwest,1972,38000,620000,True
+R003,Olivia Brown,11,Chicago,B103,P002,Data Storytelling,2026-02-02,Data,No Show,0.0,60,78,5,0,storytelling,Lakeview Branch,Chicago,IL,Midwest,1972,38000,620000,True
+R004,Noah Davis,7,Houston,B104,P003,Robotics Basics,2026-02-15,STEM,Attended,1.5,40,65,0,30,robots,Bayou Branch,Houston,TX,South,1985,32000,540000,False
+R004,Noah Davis,7,Houston,B104,P003,Robotics Basics,2026-02-15,STEM,Attended,1.5,40,65,0,30,teamwork,Bayou Branch,Houston,TX,South,1985,32000,540000,False
+R005,Ava Wilson,16,Phoenix,B105,P004,College Essay Lab,2026-03-05,Writing,Attended,2.0,70,88,10,0,writing,Desert Ridge Branch,Phoenix,AZ,West,2001,28000,410000,True
+R005,Ava Wilson,16,Phoenix,B105,P004,College Essay Lab,2026-03-05,Writing,Attended,2.0,70,88,10,0,college,Desert Ridge Branch,Phoenix,AZ,West,2001,28000,410000,True
+R006,James Miller,35,Philadelphia,B106,P005,Resume Workshop,2026-03-12,Career,Attended,1.0,65,75,15,0,career,Liberty Branch,Philadelphia,PA,Northeast,1963,36000,575000,True
+R006,James Miller,35,Philadelphia,B106,P005,Resume Workshop,2026-03-12,Career,Attended,1.0,65,75,15,0,writing,Liberty Branch,Philadelphia,PA,Northeast,1963,36000,575000,True
+R007,Mia Garcia,9,San Antonio,B107,P003,Robotics Basics,2026-03-18,STEM,Cancelled,2.0,42,68,0,30,robots,Riverwalk Branch,San Antonio,TX,South,1995,30000,390000,False
+R007,Mia Garcia,9,San Antonio,B107,P003,Robotics Basics,2026-03-18,STEM,Cancelled,2.0,42,68,0,30,coding,Riverwalk Branch,San Antonio,TX,South,1995,30000,390000,False
+R008,William Martinez,42,San Diego,B107,P006,Small Business Data,2026-04-01,Business,Attended,3.0,55,79,20,0,spreadsheets,Riverwalk Branch,San Antonio,TX,South,1995,30000,390000,False
+R008,William Martinez,42,San Diego,B107,P006,Small Business Data,2026-04-01,Business,Attended,3.0,55,79,20,0,business,Riverwalk Branch,San Antonio,TX,South,1995,30000,390000,False
+R009,Sophia Anderson,14,New York,B101,P002,Data Storytelling,2026-04-15,Data,Attended,2.0,58,82,5,5,charts,Central Library,New York,NY,Northeast,1911,80000,1250000,True
+R009,Sophia Anderson,14,New York,B101,P002,Data Storytelling,2026-04-15,Data,Attended,2.0,58,82,5,5,storytelling,Central Library,New York,NY,Northeast,1911,80000,1250000,True
+R011,Benjamin Thomas,13,Los Angeles,B102,P004,College Essay Lab,2026-04-20,Writing,Attended,2.0,73,90,10,0,college,Westside Branch,Los Angeles,CA,West,1954,45000,850000,True
+R011,Benjamin Thomas,13,Los Angeles,B102,P004,College Essay Lab,2026-04-20,Writing,Attended,2.0,73,90,10,0,writing,Westside Branch,Los Angeles,CA,West,1954,45000,850000,True
+R012,Charlotte Moore,30,Chicago,B103,P007,Financial Literacy,2026-04-30,Finance,Attended,2.0,50,70,0,10,budgeting,Lakeview Branch,Chicago,IL,Midwest,1972,38000,620000,True
+R012,Charlotte Moore,30,Chicago,B103,P007,Financial Literacy,2026-04-30,Finance,Attended,2.0,50,70,0,10,banking,Lakeview Branch,Chicago,IL,Midwest,1972,38000,620000,True
+R013,Elijah Taylor,29,Houston,B104,P007,Financial Literacy,2026-05-10,Finance,No Show,0.0,48,52,0,10,budgeting,Bayou Branch,Houston,TX,South,1985,32000,540000,False
+R013,Elijah Taylor,29,Houston,B104,P007,Financial Literacy,2026-05-10,Finance,No Show,0.0,48,52,0,10,banking,Bayou Branch,Houston,TX,South,1985,32000,540000,False
+R014,Harper Lee,12,Phoenix,B105,P008,Digital Photography,2026-05-18,Arts,Attended,2.5,68,89,12,0,photo,Desert Ridge Branch,Phoenix,AZ,West,2001,28000,410000,True
+R014,Harper Lee,12,Phoenix,B105,P008,Digital Photography,2026-05-18,Arts,Attended,2.5,68,89,12,0,design,Desert Ridge Branch,Phoenix,AZ,West,2001,28000,410000,True
+R015,Mason Clark,15,Philadelphia,B106,P009,Public Speaking,2026-06-03,Communication,Attended,1.5,62,84,8,5,speaking,Liberty Branch,Philadelphia,PA,Northeast,1963,36000,575000,True
+R015,Mason Clark,15,Philadelphia,B106,P009,Public Speaking,2026-06-03,Communication,Attended,1.5,62,84,8,5,confidence,Liberty Branch,Philadelphia,PA,Northeast,1963,36000,575000,True
+R016,Evelyn Lewis,21,San Antonio,B107,P010,Chess Club,2026-06-15,Strategy,Attended,1.5,35,55,0,0,games,Riverwalk Branch,San Antonio,TX,South,1995,30000,390000,False
+R016,Evelyn Lewis,21,San Antonio,B107,P010,Chess Club,2026-06-15,Strategy,Attended,1.5,35,55,0,0,logic,Riverwalk Branch,San Antonio,TX,South,1995,30000,390000,False
+R017,Lucas Walker,17,New York,B101,P011,Summer Reading,2026-06-25,Reading,Attended,1.0,75,92,0,0,books,Central Library,New York,NY,Northeast,1911,80000,1250000,True
+R017,Lucas Walker,17,New York,B101,P011,Summer Reading,2026-06-25,Reading,Attended,1.0,75,92,0,0,discussion,Central Library,New York,NY,Northeast,1911,80000,1250000,True
+R018,Amelia Hall,28,Los Angeles,B102,P012,Excel Basics,2026-07-09,Data,Attended,2.0,40,65,15,0,spreadsheets,Westside Branch,Los Angeles,CA,West,1954,45000,850000,True
+R018,Amelia Hall,28,Los Angeles,B102,P012,Excel Basics,2026-07-09,Data,Attended,2.0,40,65,15,0,formulas,Westside Branch,Los Angeles,CA,West,1954,45000,850000,True
+R019,Logan Allen,32,Chicago,B103,P012,Excel Basics,2026-07-16,Data,Attended,2.0,58,70,15,0,spreadsheets,Lakeview Branch,Chicago,IL,Midwest,1972,38000,620000,True
+R019,Logan Allen,32,Chicago,B103,P012,Excel Basics,2026-07-16,Data,Attended,2.0,58,70,15,0,formulas,Lakeview Branch,Chicago,IL,Midwest,1972,38000,620000,True
+R020,Abigail Young,10,Houston,B104,P013,Game Design,2026-08-05,STEM,Attended,2.0,47,78,0,20,coding,Bayou Branch,Houston,TX,South,1985,32000,540000,False
+R020,Abigail Young,10,Houston,B104,P013,Game Design,2026-08-05,STEM,Attended,2.0,47,78,0,20,games,Bayou Branch,Houston,TX,South,1985,32000,540000,False
+R021,Henry King,8,Phoenix,B105,P013,Game Design,2026-08-12,STEM,Attended,2.0,44,76,0,20,coding,Desert Ridge Branch,Phoenix,AZ,West,2001,28000,410000,True
+R021,Henry King,8,Phoenix,B105,P013,Game Design,2026-08-12,STEM,Attended,2.0,44,76,0,20,games,Desert Ridge Branch,Phoenix,AZ,West,2001,28000,410000,True
+R022,Emily Wright,24,Philadelphia,B106,P014,Job Search Lab,2026-09-02,Career,Attended,1.5,66,81,15,0,career,Liberty Branch,Philadelphia,PA,Northeast,1963,36000,575000,True
+R022,Emily Wright,24,Philadelphia,B106,P014,Job Search Lab,2026-09-02,Career,Attended,1.5,66,81,15,0,search,Liberty Branch,Philadelphia,PA,Northeast,1963,36000,575000,True
+R023,Jack Scott,40,San Antonio,B107,P014,Job Search Lab,2026-09-09,Career,Attended,1.5,63,79,15,0,career,Riverwalk Branch,San Antonio,TX,South,1995,30000,390000,False
+R023,Jack Scott,40,San Antonio,B107,P014,Job Search Lab,2026-09-09,Career,Attended,1.5,63,79,15,0,search,Riverwalk Branch,San Antonio,TX,South,1995,30000,390000,False
+R024,Grace Green,36,New York,B101,P015,Community Budgeting,2026-10-01,Finance,Attended,2.0,65,87,0,10,budgeting,Central Library,New York,NY,Northeast,1911,80000,1250000,True
+R024,Grace Green,36,New York,B101,P015,Community Budgeting,2026-10-01,Finance,Attended,2.0,65,87,0,10,community,Central Library,New York,NY,Northeast,1911,80000,1250000,True
+R025,Daniel Baker,19,Los Angeles,B102,P016,Podcasting,2026-10-16,Media,Attended,2.0,59,80,8,0,audio,Westside Branch,Los Angeles,CA,West,1954,45000,850000,True
+R025,Daniel Baker,19,Los Angeles,B102,P016,Podcasting,2026-10-16,Media,Attended,2.0,59,80,8,0,storytelling,Westside Branch,Los Angeles,CA,West,1954,45000,850000,True
+R026,Ella Adams,26,Chicago,B103,P017,Intro to AI,2026-11-05,STEM,Attended,2.0,52,85,0,25,ai,Lakeview Branch,Chicago,IL,Midwest,1972,38000,620000,True
+R026,Ella Adams,26,Chicago,B103,P017,Intro to AI,2026-11-05,STEM,Attended,2.0,52,85,0,25,ethics,Lakeview Branch,Chicago,IL,Midwest,1972,38000,620000,True
+R027,Matthew Nelson,22,Houston,B104,P017,Intro to AI,2026-11-12,STEM,Attended,2.0,54,86,0,25,ai,Bayou Branch,Houston,TX,South,1985,32000,540000,False
+R027,Matthew Nelson,22,Houston,B104,P017,Intro to AI,2026-11-12,STEM,Attended,2.0,54,86,0,25,ethics,Bayou Branch,Houston,TX,South,1985,32000,540000,False
+R028,Sarah Carter,44,Phoenix,B105,P018,Community Garden Data,2026-12-03,Environment,Attended,2.5,57,83,5,5,gardening,Desert Ridge Branch,Phoenix,AZ,West,2001,28000,410000,True
+R028,Sarah Carter,44,Phoenix,B105,P018,Community Garden Data,2026-12-03,Environment,Attended,2.5,57,83,5,5,data,Desert Ridge Branch,Phoenix,AZ,West,2001,28000,410000,True
